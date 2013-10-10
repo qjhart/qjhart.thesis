@@ -1,0 +1,535 @@
+Storage 
+{
+	{ Format 1.33 }
+	{ GeneratedFrom TATD-version-2.20 }
+	{ WrittenBy quinn }
+	{ WrittenOn "" }
+}
+
+Document 
+{
+	{ Type "Activity Diagram" }
+	{ Name cloud_cover.atd }
+	{ Author quinn }
+	{ CreatedOn "" }
+	{ Annotation "" }
+}
+
+Page 
+{
+	{ PageOrientation Portrait }
+	{ PageSize Letter }
+	{ ShowHeaders False }
+	{ ShowFooters False }
+	{ ShowNumbers False }
+}
+
+Scale 
+{
+	{ ScaleValue 1 }
+}
+
+# GRAPH NODES
+
+ATDActionStateNode 1
+{
+	{ Name "Get List of\rAll images at\rsame time for\rlast 2 weeks" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+ATDActionStateNode 2
+{
+	{ Name "$alb_T$ =\rmin(above images)" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+ATDInitialStateNode 3
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+ATDActionStateNode 4
+{
+	{ Name "Get 9x9\raverage of\rimage" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+ATDActionStateNode 5
+{
+	{ Name "Get Maximum\rValue of Image" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+ATDActionStateNode 6
+{
+	{ Name "$N= (vis_T-alb_T)/(Max-alb_T)$" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+ATDActionStateNode 7
+{
+	{ Name "$vis_T$, is Image\rat Time,$T$" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+ATDSynchronizationNode 8
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+ATDFinalStateNode 30
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+}
+
+# GRAPH EDGES
+
+ATDTransitionEdge 9
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 1 }
+	{ Subject2 2 }
+}
+
+ATDTransitionEdge 10
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 2 }
+	{ Subject2 8 }
+}
+
+ATDTransitionEdge 11
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 8 }
+	{ Subject2 6 }
+}
+
+ATDTransitionEdge 12
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 5 }
+	{ Subject2 8 }
+}
+
+ATDTransitionEdge 13
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 4 }
+	{ Subject2 5 }
+}
+
+ATDTransitionEdge 14
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 7 }
+	{ Subject2 8 }
+}
+
+ATDTransitionEdge 32
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 3 }
+	{ Subject2 7 }
+}
+
+ATDTransitionEdge 33
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 6 }
+	{ Subject2 30 }
+}
+
+# VIEWS AND GRAPHICAL SHAPES
+
+View 15
+{
+	{ Index "0" }
+	{ Parent 0 }
+}
+
+EllipsedBox 16
+{
+	{ View 15 }
+	{ Subject 1 }
+	{ Position 150 200 }
+	{ Size 162 80 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+EllipsedBox 17
+{
+	{ View 15 }
+	{ Subject 2 }
+	{ Position 150 290 }
+	{ Size 173 44 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+BlackDot 18
+{
+	{ View 15 }
+	{ Subject 3 }
+	{ Position 260 50 }
+	{ Size 8 8 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName True }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+Line 19
+{
+	{ View 15 }
+	{ Subject 9 }
+	{ FromShape 16 }
+	{ ToShape 17 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 FilledArrow }
+	{ Points 2 }
+	{ Point 150 240 }
+	{ Point 150 268 }
+	{ NamePosition 136 254 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+EllipsedBox 20
+{
+	{ View 15 }
+	{ Subject 4 }
+	{ Position 350 210 }
+	{ Size 128 61 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+EllipsedBox 21
+{
+	{ View 15 }
+	{ Subject 5 }
+	{ Position 350 290 }
+	{ Size 146 45 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+EllipsedBox 22
+{
+	{ View 15 }
+	{ Subject 6 }
+	{ Position 260 400 }
+	{ Size 279 41 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+EllipsedBox 23
+{
+	{ View 15 }
+	{ Subject 7 }
+	{ Position 260 120 }
+	{ Size 178 53 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+SolidHorizontalBar 24
+{
+	{ View 15 }
+	{ Subject 8 }
+	{ Position 260 350 }
+	{ Size 256 20 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName True }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+Line 25
+{
+	{ View 15 }
+	{ Subject 10 }
+	{ FromShape 17 }
+	{ ToShape 24 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 FilledArrow }
+	{ Points 3 }
+	{ Point 180 312 }
+	{ Point 180 330 }
+	{ Point 180 348 }
+	{ NamePosition 166 321 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+Line 26
+{
+	{ View 15 }
+	{ Subject 11 }
+	{ FromShape 24 }
+	{ ToShape 22 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 FilledArrow }
+	{ Points 2 }
+	{ Point 260 352 }
+	{ Point 260 380 }
+	{ NamePosition 246 366 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+Line 27
+{
+	{ View 15 }
+	{ Subject 12 }
+	{ FromShape 21 }
+	{ ToShape 24 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 FilledArrow }
+	{ Points 3 }
+	{ Point 360 313 }
+	{ Point 360 340 }
+	{ Point 360 348 }
+	{ NamePosition 346 326 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+Line 28
+{
+	{ View 15 }
+	{ Subject 13 }
+	{ FromShape 20 }
+	{ ToShape 21 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 FilledArrow }
+	{ Points 2 }
+	{ Point 350 241 }
+	{ Point 350 268 }
+	{ NamePosition 336 254 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+Line 29
+{
+	{ View 15 }
+	{ Subject 14 }
+	{ FromShape 23 }
+	{ ToShape 24 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 FilledArrow }
+	{ Points 2 }
+	{ Point 260 147 }
+	{ Point 260 348 }
+	{ NamePosition 246 247 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+BullsEye 34
+{
+	{ View 15 }
+	{ Subject 30 }
+	{ Position 260 470 }
+	{ Size 20 20 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName True }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+Line 35
+{
+	{ View 15 }
+	{ Subject 32 }
+	{ FromShape 18 }
+	{ ToShape 23 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 FilledArrow }
+	{ Points 2 }
+	{ Point 260 54 }
+	{ Point 260 94 }
+	{ NamePosition 246 74 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+
+Line 36
+{
+	{ View 15 }
+	{ Subject 33 }
+	{ FromShape 22 }
+	{ ToShape 34 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 FilledArrow }
+	{ Points 2 }
+	{ Point 260 421 }
+	{ Point 260 460 }
+	{ NamePosition 246 440 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+}
+

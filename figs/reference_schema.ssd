@@ -1,0 +1,313 @@
+Storage 
+{
+	{ Format 1.33 }
+	{ GeneratedFrom TSSD-version-2.20 }
+	{ WrittenBy quinn }
+	{ WrittenOn "" }
+}
+
+Document 
+{
+	{ Type "Static Structure Diagram" }
+	{ Name reference_schema.ssd }
+	{ Author quinn }
+	{ CreatedOn "" }
+	{ Annotation "" }
+	{ Hierarchy False }
+}
+
+Page 
+{
+	{ PageOrientation Portrait }
+	{ PageSize Letter }
+	{ ShowHeaders False }
+	{ ShowFooters False }
+	{ ShowNumbers False }
+}
+
+Scale 
+{
+	{ ScaleValue 0.999999 }
+}
+
+# GRAPH NODES
+
+SSDClassNode 2
+{
+	{ Name "Frame Info" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+	{ Attributes 5 }
+	{ Attribute "TINFS: Frame Start Date/Time" }
+	{ Attribute "IFRAM: Identifier" }
+	{ Attribute "End Timestamp" }
+	{ Attribute "BBOX: $\\ps{F} \\in \\Bbb{Z}^3$" }
+	{ Attribute "IMC-Identifier" }
+	{ Operations 0 }
+	{ Stereotype "<< - >>" }
+	{ Properties "{ - }" }
+}
+
+SSDClassNode 1
+{
+	{ Name "Geostream Image" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+	{ Attributes 5 }
+	{ Attribute "$\\vs{C}_n$: Radiance" }
+	{ Attribute "$\\ps{X}_n \\in \\vs{Z}^3: X(r,c,F)$" }
+	{ Attribute "$r,c,F$ = row,column,IFRAM" }
+	{ Attribute "srs: spatial reference frame" }
+	{ Attribute "mat: transformation matrix" }
+	{ Operations 0 }
+	{ Stereotype "<< - >>" }
+	{ Properties "{ - }" }
+}
+
+SSDClassNode 32
+{
+	{ Name "Geostream Frame" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+	{ Attributes 4 }
+	{ Attribute "$\\vs{C}_n$: Radiance" }
+	{ Attribute "$\\ps{X}_n \\in \\vs{Z}^3: X(r,c,F)$" }
+	{ Attribute "$F$ is constant" }
+	{ Attribute "mat: transformation matrix" }
+	{ Operations 0 }
+	{ Stereotype "<< - >>" }
+	{ Properties "{ - }" }
+}
+
+SSDClassNode 33
+{
+	{ Name "Geostream Row" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Index "" }
+	{ Attributes 4 }
+	{ Attribute "$\\vs{C}_n$: Radiance" }
+	{ Attribute "$\\ps{X}_n \\in \\vs{Z}^3: X(r,c,F)$" }
+	{ Attribute "$F,r$ are constant" }
+	{ Attribute "mat: transformation matrix" }
+	{ Operations 0 }
+	{ Stereotype "<< - >>" }
+	{ Properties "{ - }" }
+}
+
+# GRAPH EDGES
+
+SSDCompositionEdge 34
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 32 }
+	{ Subject2 1 }
+	{ Constraint1 "" }
+	{ Constraint2 "1" }
+	{ RoleName1 "1..n" }
+	{ RoleName2 "" }
+}
+
+SSDCompositionEdge 35
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 33 }
+	{ Subject2 32 }
+	{ Constraint1 "" }
+	{ Constraint2 "1" }
+	{ RoleName1 "1..n" }
+	{ RoleName2 "" }
+}
+
+SSDCompositionEdge 42
+{
+	{ Name "" }
+	{ Annotation "" }
+	{ Parent 0 }
+	{ Subject1 2 }
+	{ Subject2 1 }
+	{ Constraint1 "" }
+	{ Constraint2 "1" }
+	{ RoleName1 "1..n" }
+	{ RoleName2 "" }
+}
+
+# VIEWS AND GRAPHICAL SHAPES
+
+View 5
+{
+	{ Index "0" }
+	{ Parent 0 }
+}
+
+SSDDoubleClassBox 7
+{
+	{ View 5 }
+	{ Subject 2 }
+	{ Position 520 90 }
+	{ Size 241 112 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+	{ ShowStereotype False }
+	{ ShowProperties False }
+}
+
+SSDDoubleClassBox 6
+{
+	{ View 5 }
+	{ Subject 1 }
+	{ Position 190 90 }
+	{ Size 283 112 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+	{ ShowStereotype False }
+	{ ShowProperties False }
+}
+
+SSDDoubleClassBox 37
+{
+	{ View 5 }
+	{ Subject 32 }
+	{ Position 190 250 }
+	{ Size 283 98 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+	{ ShowStereotype False }
+	{ ShowProperties False }
+}
+
+C2R2Line 38
+{
+	{ View 5 }
+	{ Subject 34 }
+	{ FromShape 37 }
+	{ ToShape 6 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 BlackDiamond }
+	{ Points 2 }
+	{ Point 190 201 }
+	{ Point 190 146 }
+	{ NamePosition 176 173 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName True }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+	{ T1Position 204 191 }
+	{ T2Position 204 156 }
+	{ T3Position 176 191 }
+	{ T4Position 176 156 }
+	{ NameDirection None }
+}
+
+SSDDoubleClassBox 39
+{
+	{ View 5 }
+	{ Subject 33 }
+	{ Position 190 400 }
+	{ Size 283 98 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FillStyle Unfilled }
+	{ FillColor "white" }
+	{ FixedName False }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+	{ ShowStereotype False }
+	{ ShowProperties False }
+}
+
+C2R2Line 40
+{
+	{ View 5 }
+	{ Subject 35 }
+	{ FromShape 39 }
+	{ ToShape 37 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 BlackDiamond }
+	{ Points 2 }
+	{ Point 190 351 }
+	{ Point 190 299 }
+	{ NamePosition 176 325 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName True }
+	{ Font "-*-times-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+	{ T1Position 204 341 }
+	{ T2Position 204 309 }
+	{ T3Position 176 341 }
+	{ T4Position 176 309 }
+	{ NameDirection None }
+}
+
+C2R2Line 43
+{
+	{ View 5 }
+	{ Subject 42 }
+	{ FromShape 7 }
+	{ ToShape 6 }
+	{ Curved False }
+	{ End1 Empty }
+	{ End2 BlackDiamond }
+	{ Points 2 }
+	{ Point 400 90 }
+	{ Point 332 90 }
+	{ NamePosition 366 80 }
+	{ Color "black" }
+	{ LineWidth 1 }
+	{ LineStyle Solid }
+	{ FixedName True }
+	{ Font "-*-courier-medium-r-normal--10*" }
+	{ TextAlignment Center }
+	{ TextColor "black" }
+	{ NameUnderlined False }
+	{ T1Position 390 100 }
+	{ T2Position 342 100 }
+	{ T3Position 390 80 }
+	{ T4Position 342 80 }
+	{ NameDirection None }
+}
+

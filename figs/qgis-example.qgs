@@ -1,0 +1,106 @@
+<!DOCTYPE qgis PUBLIC "http://mrcc.com/qgis.dtd" "SYSTEM">
+<qgis projectname="" version="0.7.4" >
+    <title></title>
+    <units>degrees</units>
+    <extent>
+        <xmin>2956.900000</xmin>
+        <ymin>-16801.329903</ymin>
+        <xmax>25828.100000</xmax>
+        <ymax>920.329903</ymax>
+    </extent>
+    <projectlayers layercount="2" >
+        <maplayer maxScale="1e+08" scaleBasedVisibilityFlag="0" showInOverviewFlag="0" type="raster" minScale="0" visible="1" >
+            <id>T2100_ch120061017020332025</id>
+            <datasource>/home/quinn/grass6/GOES10/quinn/cellhd/T2100_ch1</datasource>
+            <layername>T2100_ch1</layername>
+            <coordinatetransform>
+                <sourcesrs>
+                    <spatialrefsys>
+                        <proj4>+proj=longlat +ellps=WGS84 +no_defs </proj4>
+                        <srsid>1449</srsid>
+                        <srid>4031</srid>
+                        <epsg>4031</epsg>
+                        <description>Unknown datum based upon the GEM 10C ellipsoid</description>
+                        <projectionacronym>longlat</projectionacronym>
+                        <ellipsoidacronym>WGS84</ellipsoidacronym>
+                        <geographicflag>true</geographicflag>
+                    </spatialrefsys>
+                </sourcesrs>
+                <destinationsrs>
+                    <spatialrefsys>
+                        <proj4>+proj=longlat +ellps=WGS84 +no_defs </proj4>
+                        <srsid>1449</srsid>
+                        <srid>4031</srid>
+                        <epsg>4031</epsg>
+                        <description>Unknown datum based upon the GEM 10C ellipsoid</description>
+                        <projectionacronym>longlat</projectionacronym>
+                        <ellipsoidacronym>WGS84</ellipsoidacronym>
+                        <geographicflag>true</geographicflag>
+                    </spatialrefsys>
+                </destinationsrs>
+            </coordinatetransform>
+            <rasterproperties>
+                <showDebugOverlayFlag boolean="false" />
+                <drawingStyle>PALETTED_MULTI_BAND_COLOR</drawingStyle>
+                <invertHistogramFlag boolean="false" />
+                <stdDevsToPlotDouble>0</stdDevsToPlotDouble>
+                <transparencyLevelInt>255</transparencyLevelInt>
+                <redBandNameQString>Red</redBandNameQString>
+                <greenBandNameQString>Green</greenBandNameQString>
+                <blueBandNameQString>Blue</blueBandNameQString>
+                <grayBandNameQString>Not Set</grayBandNameQString>
+            </rasterproperties>
+        </maplayer>
+        <maplayer maxScale="1e+08" scaleBasedVisibilityFlag="0" showInOverviewFlag="0" type="raster" minScale="0" visible="1" >
+            <id>nations20061017020322351</id>
+            <datasource>/home/quinn/grass6/GOES10/quinn/cellhd/nations</datasource>
+            <layername>Nations</layername>
+            <coordinatetransform>
+                <sourcesrs>
+                    <spatialrefsys>
+                        <proj4>+proj=longlat +ellps=WGS84 +no_defs </proj4>
+                        <srsid>1449</srsid>
+                        <srid>4031</srid>
+                        <epsg>4031</epsg>
+                        <description>Unknown datum based upon the GEM 10C ellipsoid</description>
+                        <projectionacronym>longlat</projectionacronym>
+                        <ellipsoidacronym>WGS84</ellipsoidacronym>
+                        <geographicflag>true</geographicflag>
+                    </spatialrefsys>
+                </sourcesrs>
+                <destinationsrs>
+                    <spatialrefsys>
+                        <proj4>+proj=longlat +ellps=WGS84 +no_defs </proj4>
+                        <srsid>1449</srsid>
+                        <srid>4031</srid>
+                        <epsg>4031</epsg>
+                        <description>Unknown datum based upon the GEM 10C ellipsoid</description>
+                        <projectionacronym>longlat</projectionacronym>
+                        <ellipsoidacronym>WGS84</ellipsoidacronym>
+                        <geographicflag>true</geographicflag>
+                    </spatialrefsys>
+                </destinationsrs>
+            </coordinatetransform>
+            <rasterproperties>
+                <showDebugOverlayFlag boolean="false" />
+                <drawingStyle>PALETTED_MULTI_BAND_COLOR</drawingStyle>
+                <invertHistogramFlag boolean="false" />
+                <stdDevsToPlotDouble>0</stdDevsToPlotDouble>
+                <transparencyLevelInt>119</transparencyLevelInt>
+                <redBandNameQString>Red</redBandNameQString>
+                <greenBandNameQString>Green</greenBandNameQString>
+                <blueBandNameQString>Blue</blueBandNameQString>
+                <grayBandNameQString>Not Set</grayBandNameQString>
+            </rasterproperties>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectSRSID type="int" >1449</ProjectSRSID>
+        </SpatialRefSys>
+        <PositionPrecision>
+            <DecimalPlaces type="int" >2</DecimalPlaces>
+            <Automatic type="int" >1</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>

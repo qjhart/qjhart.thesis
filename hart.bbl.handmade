@@ -1,0 +1,471 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{dBvKOS00}
+
+\bibitem[ABB{\etalchar{+}}03]{arasu03stream}
+A.~Arasu, B.~Babcock, S.~Babu, M.~Datar, K.~Ito, R.~Motwani, I.~Nishizawa, U.~Srivastava, D.~Thomas, R.~Varma, and J.~Widom, \emph{{STREAM}: The {S}tanford stream data manager.}, IEEE Data
+  Engineering Bulletin \textbf{26} (2003), no.~1, 19--26.
+
+\bibitem[ABW03]{arasu03cql-contin}
+A.~Arasu, S.~Babu, and J.~Widom, \emph{The {CQL} continuous query
+  language: Semantic foundations and query execution}, Tech. report, Stanford,
+  October 2003.
+
+\bibitem[ACC{\etalchar{+}}03]{abadi03auror}
+D.~Abadi, D.~Carney, U.~Cetintemel, M.~Cherniack, C.~Convey,
+  S.~Lee, M.~Stonebraker, N.~Tatbul, and S.~Zdonik,
+  \emph{Aurora: A new model and architecture for data stream management}, The
+  VLDB Journal \textbf{12} (2003), no.~2, 120--139.
+
+\bibitem[AH00]{avnur00eddies}
+R.~Avnur and J.~Hellerstein, \emph{Eddies: Continuously adaptive query
+  processing}, Proceedings of the 2000 ACM SIGMOD International Conference on
+  Management of Data, May 16-18, 2000, Dallas, Texas, USA, ACM, 2000,
+  pp.~261--272.
+
+\bibitem[AKSS03]{andrad03exploit-funct}
+H.~Andrade, T.~Kurc, A.~Sussman, and J.~Saltz, \emph{Exploiting
+  functional decomposition for efficient parallel processing of multiple data
+  analysis queries}, IPDPS '03: Proceedings of the 17th International Symposium
+  on Parallel and Distributed Processing (Washington, DC, USA), IEEE Computer
+  Society, 2003, p.~81.1.
+
+\bibitem[AT99]{atkin99advan-remot}
+P.~Atkinson and N.~Tate, \emph{Advances in remote sensing and
+  {GIS}}, Wiley, 1999.
+
+\bibitem[BBD{\etalchar{+}}02]{babcoc02model-issues}
+B.~Babcock, S.~Babu, M.~Datar, R.~Motwani, and J.~Widom,
+  \emph{Models and issues in data stream systems}, Proceedings of the
+  Twenty-first ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database
+  Systems, 2002, pp.~1--16.
+
+\bibitem[BBD{\etalchar{+}}04]{babcock04op}
+B.~Babcock, S.~Babu, M.~Datar, R.~Motwani, and D.~Thomas,
+  \emph{Operator scheduling in data stream systems}, Special Issue of the VLDB
+  Journal on Data Stream Processing, 2004.
+
+\bibitem[BDM04]{babcock04load}
+B.~Babcock, M.~Datar, and R.~Motwani, \emph{Load shedding for
+  aggregation queries over data streams}, Proceedings of the 20th International
+  Conference on Data Engineering, IEEE Computer Society, 2004, p.~350.
+
+\bibitem[CB99]{curtis99introd-envir}
+L.~Curtis and E.~Barrett, \emph{Introduction to environmental
+  remote sensing}, 4th ed., Stanley Thornes Pub Ltd, April 1999.
+
+\bibitem[CCC{\etalchar{+}}02]{carney02monit-stream}
+D.~Carney, U.~Cetintemel, M.~Cherniack, C.~Convey, S.~Lee, G.~Seidman,
+  M.~Stonebraker, N.~Tatbul, and S.~Zdonik, \emph{Monitoring streams - a new
+  class of data management applications}, Proc. of the 28th International
+  Conference on Very Large Data Bases (VLDB 2002) (Hong Kong), 2002.
+
+\bibitem[CCD{\etalchar{+}}03]{chand03teleg}
+S.~Chandrasekaran, O.~Cooper, A.~Deshpande, M.~Franklin,
+  J.~Hellerstein, W.~Hong, S.~Krishnamurthy, S.~Madden,
+  V.~Raman, F.~Reiss, and M.~Shah, \emph{Telegraph{CQ}:
+  Continuous dataflow processing for an uncertain world}, First Biennial
+  Conference on Innovative Data Systems Research (CIDR 2003), 2003.
+
+\bibitem[CCR{\etalchar{+}}03]{carney03operat-sched}
+D.~Carney, U.~Cetintemel, A.~Rasin, S.~Zdonik, M.~Cherniack, and M.~Stonebraker, \emph{Operator scheduling in a data stream manager}, Proceedings
+  of 29th VLDB conference, 2003.
+
+\bibitem[CDL{\etalchar{+}}03]{cox03geogr-markup}
+S.~Cox, P.~Daisey, R.~Lake, C.~Portele, and A.~Whiteside,
+  \emph{Geography markup language (gml3.0)}, OpenGIS Implementation OGC
+  02-023r4, Open Geospatial Consortium Inc., Jan 2003.
+
+\bibitem[CDN02]{chen02desig-evaluat}
+J.~Chen, D. DeWitt, and J.~Naughton, \emph{Design and
+  evaluation of alternative selection placement strategies in optimizing
+  continuous queries}, International Conference on Data Engineering, 2002.
+
+\bibitem[CF78]{chhikara78lands-based}
+R. Chhikara and A. Feiveson, \emph{Landsat-based large area crop acreage
+  estimation--an experimental study}, Proceedings of the Survey Research
+  Methods Section, American Statistical Association, 1978.
+
+\bibitem[CF03]{950486}
+S.~Chandrasekaran and M. Franklin, \emph{Psoup: a system for
+  streaming queries over streaming data}, The VLDB Journal \textbf{12} (2003),
+  no.~2, 140--156.
+
+\bibitem[Con00]{conway00objec-orien-perl}
+D.~Conway, \emph{Object oriented perl}, Manning Publications Co.,
+  Greenwich, CT, USA, 2000.
+
+\bibitem[Dan92]{dangermond92what-is}
+J.~Dangermond, \emph{What is a geographic information system ({GIS})?},
+  Geographic Information Systems (GS) andd Mapping - Practices and Standards,
+  American Society for Testing and Materials, 1992, pp.~11--17.
+
+\bibitem[dBvKOS00]{berg00comput-geomet}
+M.~de\ Berg, M.~van Kreveld, M.~Overmars, and O.~Schwarzkopf,
+  \emph{Computational geometry: Algorithms and applications}, Springer, 2000.
+
+\bibitem[DGGR02]{dobra02proces}
+A.~Dobra, M.~Garofalakis, J.~Gehrke, and R.~Rastogi,
+  \emph{Processing complex aggregate queries over data streams}, SIGMOD
+  Conference, 2002, pp.~61--72.
+
+\bibitem[dLB04]{openg04web-map}
+J.~de~La~Beaujardiere, \emph{Web map service}, OpenGIS Implementation OGC
+  04-024, Open Geospatial Consortium Inc., Aug 2004.
+
+\bibitem[{ESR}97]{esri97esri-shapef-techn-descr}
+{ESRI}, \emph{{ESRI} shapefile technical description}, Tech. report,
+  Environmental Systems Research Institute, 1997.
+
+\bibitem[{Exe}94]{1290694coord-geogr}
+{Executive Order 12906}, \emph{Coordinating geographic data acquisition and
+  access: The national spatial data infrastructure}, Federal Register
+  \textbf{59} (1994), no.~71, 17671--17674.
+
+\bibitem[FB01]{DBLP:conf/ssdbm/FrewB01}
+J.~Frew and R.~Bose, \emph{Earth system science workbench: A data
+  management infrastructure for earth science products.}, SSDBM, 2001,
+  pp.~180--189.
+
+\bibitem[GE97]{glazebrook97pdl}
+K.~Glazebrook and F.~Economou, \emph{{PDL}: The Perl data language ---
+  high-speed number crunching in Perl}, Tech. report, Dr. Dobb's Special
+  Report, 1997.
+
+\bibitem[GGR02]{garof02query-minin}
+M.~Garofalakis, J.~Gehrke, and R.~Rastogi, \emph{Querying and
+  mining data streams: You only get one look; a tutorial},
+  \url{http://www.cs.ust.hk/vldb2002/program-info/tutorial-slides/T5garofalali%
+s.pdf}, 2002, VLDB.
+
+\bibitem[GHR{\etalchar{+}}06]{gertz06data-query}
+M.~Gertz, Q.~Hart, C.~Rueda, S.~Singhal, and J.~Zhang,
+  \emph{A data and query model for streaming geospatial image data}, 11th
+  International Workshop on Foundations of Models and Languages for Data and
+  Objects (Query Languages and Query Processing - QLQP 2006), 2006, To Appear.
+
+\bibitem[GKS01]{gehrk01comput-correl}
+J.~Gehrke, F.~Korn, and D.~Srivastava, \emph{On computing
+  correlated aggregates over continual data streams}, SIGMOD Conference, 2001.
+
+\bibitem[GM93]{graef93volcan-optim}
+G.~Graefe and W.~McKenna, \emph{The {V}olcano optimizer generator:
+  extensibility and efficient search}, {ICDE}, 1993, pp.~209--218.
+
+\bibitem[GOE96]{goes96databook}
+\emph{Goes i-m databook, revision 1}, 1996.
+
+\bibitem[{GRA}06]{GRASS_GIS_software}
+{GRASS Development Team}, \emph{Geographic resources analysis support system
+  (GRASS GIS) software}, ITC-irst, Trento, Italy, 2006.
+
+\bibitem[GS95]{gutin95realm-based}
+R.~G{\"u}ting and M.~Schneider, \emph{Realm-based spatial data
+  types: The {ROSE} algebra}, VLDB Journal \textbf{4} (1995), no.~2, 243--286.
+
+\bibitem[Gut84]{guttm84r-tree}
+A.~Guttman, \emph{R-trees: a dynamic index structure for spatial searching}, In
+  Proc. ACM SIGMOD Int. Conf. on Management of Data (Boston, MA), 1984,
+  pp.~47--57.
+
+\bibitem[G{\"u}t94]{gutin94introd-spatial}
+R.~G{\"u}ting, \emph{An introduction to spatial database systems}, VLDB Journal
+  \textbf{3} (1994), no.~4.
+
+\bibitem[Had04]{hadjiel04spatial-index}
+M.~Hadjieleftheriou, \emph{Spatial index library}, Department of Computer
+  Science and Engineering, University of California, Riverside, version 0.80b
+  ed., 2004.
+
+\bibitem[HFC{\etalchar{+}}00]{heller00adapt-query}
+J.~Hellerstein, M.~Franklin, S.~Chandrasekaran, A.~Deshpande, K.~Hildrum, S.~Madden, V.~Raman, and M.~Shah,
+  \emph{Adaptive query processing: Technology in evolution}, IEEE Data
+  Engineering Bulletin \textbf{23} (2000), no.~2, 7--18.
+
+\bibitem[HG]{DBLP:conf/ssdbm/HartG05}
+Q.~Hart and M.~Gertz, \emph{Querying streaming geospatial image data:
+  The geostreams project.}, pp.~147--150.
+
+\bibitem[HG04]{hart04index-query}
+Q.~Hart and M.~Gertz, \emph{Indexing query regions for streaming geospatial data}, 2nd
+  Workshop on Spatio-temporal Database Management, STDBM'04, 2004.
+
+\bibitem[HG06]{hart06optim-of}
+Q.~Hart and M.~Gertz, \emph{Optimization of multiple continuous queries over streaming
+  satellite data}, ACM-GIS'06, November 2006.
+
+\bibitem[HGZ05]{DBLP:conf/ssd/HartGZ05}
+Q.~Hart, M.~Gertz, and J.~Zhang, \emph{Evaluation of a dynamic tree
+  structure for indexing query regions on streaming geospatial data.}, SSTD,
+  2005, pp.~145--162.
+
+\bibitem[HH99]{haas99rippl-joins}
+P.~Haas and J.~Hellerstein, \emph{Ripple joins for online
+  aggregation}, SIGMOD Conference, 1999, pp.~287--298.
+
+\bibitem[Hin96]{hinton96gis-remot}
+J.~Hinton, \emph{{GIS} and remote sensing integration for environmental
+  applications}, International Journal of Geographical Information Science
+  \textbf{10} (1996), no.~7, 877--890.
+
+\bibitem[ISO]{iso-tc}
+\emph{{ISO/TC 211}}, \url{http://www.isotc211.org/}.
+
+\bibitem[Jia06]{jiang06digit-image-proces}
+M.~Jiang, \emph{Digital image processing}, School of Mathematical Sciences,
+  Peking University, Peking University, 2006, Unpublished.
+
+\bibitem[Kav99]{kavaya99lidar-tutor}
+M.~Kavaya.
+\newblock {LIDAR} tutorial.
+\newblock \url{http://www.ghcc.msfc.nasa.gov/sparcle/sparcle_tutorial.html},
+  1999.
+
+\bibitem[KBFL06]{ogc06gml-in}
+M.~Kyle, D.~Burggraf, S.~Forde, and R.~Lake, \emph{{GML} in {JPEG} 2000
+  for geographic imagery (GMLJP2)}, Tech. Report OGC 05-047r3, Open Geospatial
+  Consortium Inc., February 2006.
+
+\bibitem[KCK01]{kim01optim}
+K.~Kim, S.~Cha, and K.~Kwon, \emph{Optimizing multidimensional
+  index trees for main memory access}, SIGMOD Rec. \textbf{30} (2001), no.~2,
+  139--150.
+
+\bibitem[KH95]{kidder95satel-meteor}
+S.~Kidder and T.~Haar, \emph{Satellite meteorology, an
+  introduction}, Academic Press, 1995.
+
+\bibitem[KPH04]{kalas04main-memor}
+D.~Kalashnikov, S.~Prabhakar, and S.~Hambrusch, \emph{Main
+  memory evaluation of monitoring queries over moving objects}, Distributed and
+  Parallel Databases, An International Journal (DAPD) \textbf{15} (2004),
+  no.~2, 117--135.
+
+\bibitem[Lan86]{landgrebe86brief-histor}
+D.~Landgrebe, \emph{A brief history of the laboratory for applications of
+  remote sensing ({LARS})},
+  \url{http://www.lars.purdue.edu/home/LARSHistory.html}, Dec 1986.
+
+\bibitem[LEHN02]{luo02scalable}
+G.~Luo, C.~Ellmann, P.~Haas, and J.~Naughton, \emph{A
+  scalable hash ripple join algorithm}, SIGMOD Conference, 2002, pp.~252--262.
+
+\bibitem[LV05]{DBLP:conf/ssdbm/LynnesV05}
+C.~Lynnes and B.~Vollmer, \emph{A robust, low-cost virtual archive
+  for science data.}, SSDBM, 2005, pp.~59--62.
+
+\bibitem[Mat04]{mather04comput-proces}
+P.Mather, \emph{Computer processing of remotely-sensed images (3rd
+  edition)}, Wiley, 2004.
+
+\bibitem[McC05]{mccoy05arcgis-using}
+J.~McCoy, \emph{Arcgis9 using arcgis spatial analyst}, ESRI, Redlands, CA,
+  2005.
+
+\bibitem[{Met}98]{fgdc98conten-stand}
+{Metadata Ad Hoc Working Group}, \emph{Content standard for digital geospatial
+  metadata}, Tech. Report FGDC-STD-001-1998, Federal Geographic Data Committee,
+  1998.
+
+\bibitem[MF02]{madden02fjord-stream}
+S.~Madden and M.~Franklin, \emph{Fjording the stream: An architecture
+  for queries over streaming sensor data}, {ICDE}, 2002.
+
+\bibitem[MNPT03]{manol03r-have}
+Y.~Manolopoulos, A.~Nanopoulos, A.~Papadopoulos, and Y.~Theodoridis,
+  \emph{R-trees have grown everywhere}, Unpublished Technical Report, 2003.
+
+\bibitem[MS02]{marat02query}
+A.~Marathe and K.~Salem, \emph{Query processing techniques for
+  arrays}, The VLDB Journal, The International Journal on Very Large Data Bases
+  \textbf{11} (2002), no.~1, 68--91.
+
+\bibitem[MSHR02]{madden02contin-adapt}
+S.~Madden, M.~Shah, J.~Hellerstein, and V.~Raman,
+  \emph{Continuously adaptive continuous queries over streams}, Proc. of the
+  2002 ACM SIGMOD international conference on Management of data, ACM Press,
+  2002, pp.~49--60.
+
+\bibitem[MWA{\etalchar{+}}03]{motwan03query-proces}
+R.~Motwani, J.~Widom, A.~Arasu, B.~Babcock, S.~Babu,
+  M.~Datar, G.~Manku, C.~Olston, J.~Rosenstein, and R.~Varma,
+  \emph{Query processing, resource management, and approximation in a data
+  stream management system}, Conference on Innovative Database Systems (CIDR)
+  (2003).
+
+\bibitem[MXA04]{mokbel04sina}
+M.~Mokbel, X.~Xiong, and W.~Aref, \emph{{SINA}: Scalable
+  incremental processing of continuous queries in spatio-temporal databases},
+  SIGMOD, 2004, pp.~623--634.
+
+\bibitem[{NAS}06]{nasa06goddar-distr}
+{NASA Earth Science Enterprise}, \emph{Goddard distributed active archive
+  center ({DAAC})}, \url{http://daac.gsfc.nasa.gov/}, 2006.
+
+\bibitem[{Nat}93]{nrc93towar-coord}
+{National Research Council} (ed.), \emph{Toward a coordinated spatial data
+  infrastructure for the nation}, National Academy Press, Washington, D.C.,
+  1993.
+
+\bibitem[{Nat}98]{panel98distr-geolib}
+{National Research Council, Panel on Distributed Geolibraries} (ed.),
+  \emph{Distributed geolibraries: Spatial information resources, summary of a
+  workshop}, National Academies Press, 1998.
+
+\bibitem[NOA00]{noaa00gvar-trans}
+NOAA, \emph{{GVAR} transmission format}, Tech. Report DRL 504-02, NOAA/NESDIS,
+  June 2000.
+
+\bibitem[OC01]{openg01openg-implem}
+IOpenGIS~Consortium, \emph{Open{GIS} implementation specification: Grid
+  coverage}, Tech. Report 01-004, OpenGIS Project, 2001.
+
+\bibitem[{OGC}]{06open-geosp-consor}
+\emph{Open geospatial consortium}, \url{http://www.opengeospatial.org/}.
+
+\bibitem[{OGC}05]{evans05web-cover}
+Open Geospatial Consortium Inc, \emph{Web coverage service (wcs), version 1.0.0
+  (corrigendum)}, Nov 2005.
+
+\bibitem[Per04]{perciv04earth-imager}
+George Percivall, \emph{Earth imagery (topic 7)}, OpenGIS Implementation ISO/TS
+  19101-2, Open Geospatial Consortium Inc., Aug 2004.
+
+\bibitem[Pet02]{02coord-conver}
+Petrotechnical Open Software Corporation (POSC), \emph{Coordinate conversions
+  and transformations including formulas}, guidance note number 7 ed., 2002.
+
+\bibitem[PGLK97]{pellen97compl-trans}
+Arjan Pellenkoft, Cesar~A. Galindo-Legaria, and Martin~L. Kersten, \emph{The
+  complexity of transformation-based join enumeration}, The {VLDB} Journal,
+  1997, pp.~306--315.
+
+\bibitem[Pos05]{05postg}
+The PostgreSQL Global Development Group, \emph{Postgresql 8.1.4 documentation},
+  2005.
+
+\bibitem[Pug90]{pugh90skip}
+W.~Pugh, \emph{Skip lists: A probilistic alternative to balanced trees},
+  Communications of the ACM \textbf{33} (1990), no.~6, 668--676.
+
+\bibitem[PXK{\etalchar{+}}02]{prabhakar02qindex}
+S.~Prabhakar, Y.~Xia, D.~Kalashnikov, W.~Aref, and S.~Hambrusch, \emph{Query
+  indexing and velocity constrained indexing: Scalable techniques for
+  continuous queries on moving objects}, IEEE Trans. on Computers \textbf{51}
+  (2002), no.~10, 1124--1140.
+
+\bibitem[Ree27]{reeves27aerial-photog}
+D.~M. Reeves, \emph{Aerial photographs, characteristics and military
+  applications}, New York, Ronald Press Co., 1927.
+
+\bibitem[RR00]{ritter00geotif-format}
+Dr.~Niles Ritter and Mike Ruth, \emph{Geotiff format specification; revision
+  1.0}, Tech. report, GeoTIFF Working Group, 2000.
+
+\bibitem[RSSB00]{roy00effic}
+Prasan Roy, S.~Seshadri, S.~Sudarshan, and Siddhesh Bhobe, \emph{Efficient and
+  extensible algorithms for multi query optimization}, 2000, pp.~249--260.
+
+\bibitem[RSV02]{rigaux02spatial-datab}
+P.~Rigaux, M.~Scholl, and A.~Voisard, \emph{Spatial databases with application
+  to gis}, Academic Press, 2002.
+
+\bibitem[RW01]{ritter01handb-comput}
+Gerhard~X. Ritter and Joseph~N. Wilson, \emph{Handbook of computer vision
+  algorithms in image algebra}, 2nd ed., CRC Press, 2001.
+
+\bibitem[SG90]{sellis90multip-query}
+T.~K. Sellis and S.~Ghosh, \emph{On the multiple-query optimization problem},
+  IEEE Transactions on Knowledge and Data Engineering (TKDE), vol.~2, June
+  1990, pp.~262--266.
+
+\bibitem[SGI99]{99stand-templ}
+SGI, \emph{Standard template library programmer's guide}, 1999.
+
+\bibitem[SHCF03]{shah03flux}
+Mehul~A. Shah, Joseph~M. Hellerstein, Sirish Chandrasekaran, and Michael~J.
+  Franklin, \emph{Flux: An adaptive partitioning operator for continuous query
+  systems}, International Conference on Data Engineering, 2003.
+
+\bibitem[Ski02]{skidm02envir-model}
+Andrew Skidmore (ed.), \emph{Environmental modeling with gis and remote
+  sensing}, Taylor \& Francis, 2002.
+
+\bibitem[SRF87]{sellis87r-tree}
+Timos~K. Sellis, Nick Roussopoulos, and Christos Faloutsos, \emph{The r+-tree:
+  A dynamic index for multi-dimensional objects}, VLDB'87, Proceedings of 13th
+  International Conference on Very Large Data Bases, September 1-4, 1987,
+  Brighton, England (Peter~M. Stocker, William Kent, and Peter Hammersley,
+  eds.), Morgan Kaufmann, 1987, pp.~507--518.
+
+\bibitem[SRH90]{stonebraker90implementation}
+Michael Stonebraker, Lawrence~A. Rowe, and Michael Hirohama, \emph{The
+  implementation of postgres}, Knowledge and Data Engineering \textbf{2}
+  (1990), no.~1, 125--142.
+
+\bibitem[Swa85]{swain85advan-inter}
+Philip Swain, \emph{advanced interpolation techniques for earth data
+  information systems}, Proceedings of the IEEE, vol.~73, June 1985.
+
+\bibitem[TCZ{\etalchar{+}}03]{tatbul03load}
+Nesime Tatbul, Ugur Cetintemel, Stan Zdonik, Mitch Cherniack, and Michael
+  Stonebraker, \emph{Load shedding in a data stream manager}, Proceedings of
+  the 29th International Conference on Very Large Data Bases (VLDB'03), 2003.
+
+\bibitem[{Uni}06]{concerned06ucs-satel-datab}
+{Union of Concerned Scientists}, \emph{{UCS} satellite database},
+  \url{http://www.ucsusa.org/satellite_database}, Sept 2006.
+
+\bibitem[{USG}a]{usgsearth-explor}
+{USGS}, \emph{Earth explorer},
+  \url{http://edcsns17.cr.usgs.gov/EarthExplorer/}, as of 2006.
+
+\bibitem[{USG}b]{spatial-data-trans-stand}
+\emph{The spatial data transfer standard},
+  \url{http://mcmcweb.er.usgs.gov/sdts/}.
+
+\bibitem[vKO88]{krevel88concat-segmen}
+Marc~J. van Kreveld and Mark~K. Overmars, \emph{Concatenable segment trees},
+  Tech. report, Rijksuniversiteit Utrecht, 1988.
+
+\bibitem[War04]{warmer04gdal-data}
+Frank Warmerdam, \emph{Gdal data model}, April 2004.
+
+\bibitem[Whi01]{whites01defin-data}
+Arliss Whiteside, \emph{Definition data for coordinate reference}, OpenGIS
+  Discussion Paper OGC 01-0145, Open Geospatial Consortium Inc., Nov 2001.
+
+\bibitem[Whi04]{whites04some}
+\bysame, \emph{Some image geometry models}, OpenGIS Discussion Paper OGC
+  04-071, Open Geospatial Consortium Inc., Sept 2004.
+
+\bibitem[Whi05]{whites05recom-xml}
+\bysame, \emph{Recommended xml/gml 3.1.1 encoding of image crs definitions},
+  OpenGIS Recommendation Paper OGC 05-027r1, Open Geospatial Consortium Inc.,
+  Apr 2005.
+
+\bibitem[wik06]{wiki06}
+\emph{{Wikipedia}}, \url{http://wikipedia.org/}, 2006, {APNG},
+  {Bilinear\_Interpolation}, {Bicubic\_Interpolation}, {ESRI},
+  {Function\_(mathematics)}, {GIS\_file\_formats}, {GMLJP2}, {GRASS}, {JPEG},
+  {Lattice\_(group)}, {MNG}, {Object-oriented\_image\_classification},
+  {Open\_GIS\_Consortium}, {PNG}, {Quantum\_GIS}, {RSS\_(file\_format)},
+  {Square\_lattice}, {Tessellation}.
+
+\bibitem[WW28]{winchester28aerial-photog}
+C.~Winchester and F.~L. Wills, \emph{Aerial photography: A comprehensive survey
+  of its practice and development}, Chapman and Hill Ltd., 1928.
+
+\bibitem[ZZP{\etalchar{+}}03]{zhang03locat}
+Jun Zhang, Manli Zhu, Dimitris Papadias, Yufei Tao, and Dik~Lun Lee,
+  \emph{Location-based spatial queries}, Proceedings of the 2003 ACM SIGMOD
+  international conference on on Management of data, ACM Press, 2003,
+  pp.~443--454.
+
+\end{thebibliography}

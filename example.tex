@@ -1,0 +1,103 @@
+\documentclass[10pt,twoside]{ucdthesis} % Small
+%\documentclass{ucdthesis}       % Final
+
+% geostreams have common drawing stuff.
+\usepackage{geostreams}
+\usepackage{array}
+\usepackage{xr}
+\usepackage{epsfig}
+\usepackage{acronym}
+\usepackage{theorem}
+\usepackage{pst-3d}
+\usepackage{theorem}
+\usepackage{url}
+\newtheorem{definition}{Definition}[section]
+% Standardize Acronyms for thesis and Geostreams
+\input{../geostreams_macros}
+\newcommand{\GS}{\emph{GeoStreams}}
+
+\usepackage{pstcol,pst-node,pst-tree}
+\usepackage[all,dvips, graph, frame]{xy}
+
+
+% This is used for multi-column tables
+\newcommand{\PreserveBackslash}[1]{\let\temp=\\#1\let\\=\temp}
+\let\PBS=\PreserveBackslash
+
+\begin{document}
+
+
+
+\newcommand{\Source}[1]{\POS*+=<1em>[o]+[F]{#1}}
+\newcommand{\Node}[1]{*+=<1em>[o]+[F]{#1}}
+\newcommand{\To}[1]{\ar @{<-} "#1"}
+\newcommand{\In}{\save + /u10mm/*{}\ar + /d5mm/\restore}
+\newcommand{\Out}{\ar +/d5mm/}
+\newgraphescape{S}[1]{!{\Source{#1}="#1"\In}}
+\newgraphescape{N}[1]{!{*+=<1em>[o]+[F]{#1}}}
+\newgraphescape{Q}[1]{!{*+=<1em>[o]+[F]{#1}}}
+
+
+\begin{figure}
+  \centering
+  \xygraph{
+    [] !S{VIS}
+    (-[dll] :[ddd] !Q{Vis},
+     :[dl]  !N{|_\ps{NA}} :[ddd] !Q{VisNA},
+     :[d]   !N{|_\ps{CA}} :[ddd] !Q{VisCA},     
+     :[dr]  !N{\circ UTM} :[d] !N{|_\ps{CA}} :[dd] !Q{VisCA-UTM} ,     
+     :[drr]  !N{\circ UTM} :[d] !N{|_\ps{CA}} :[d] !N{|_\ps{<\pt{d}}} :[d] !Q{VisCA-UTM<\pt{d}} ,     
+     :[drrr]  !N{\circ UTM} :[d] !N{|_\ps{NA}} :[d] !N{|_\ps{@t}} :[d] !Q{VisCA-UTM} ,     
+     )
+    [rrrrr] !S{IR}
+    (-[d] *+=[o]+[F]{12}
+    (-[dl] *+=[o]+[F]{121}
+    ,-[d] *+=[o]+[F]{122}
+    ,-[dr] *+=[o]+[F]{123}
+    )
+    ,-[dr] *+=[o]+[F]{13}
+    )
+    }
+
+  \caption{Examples}
+  \label{fig:multi-1}
+\end{figure}
+\begin{figure}[htbp]
+  \centering
+
+  \subfigure[$\frac{\im{IR}-\im{VIS}}{\im{VIS}+\im{IR}}|_{\ps{NA}} $]{%
+    \pstree[treemode=U]{\Tcircle{Q}}{
+      \pstree[treemode=U]{\Tcircle{$|_{NA}$}}{
+        \pstree[treemode=U]{\Tcircle{/}}{
+          \pstree[treemode=U]{\Tcircle{+}}{
+            \Tcircle[name=VIS]{VIS}
+            \Tcircle[name=IR]{IR}
+          }
+          \Tcircle[name=minus]{-}
+          \ncline{VIS}{minus}
+          \ncline{IR}{minus}
+          % \pstree[treemode=U]{\Tcircle{-}}{
+          %   \Tcircle{VIS}
+          %   \Tcircle{IR}
+          % }
+        }
+      }
+    }
+  }
+
+  \subfigure[$\frac{\im{IR}-\im{VIS}}{\im{VIS}+\im{IR}}|_{\ps{NA}} $]{%
+    \Tcircle[name=IR]{\im{IR}} \quad
+    \pstree{\Tcircle[name=VIS]{\im{VIS}}}{
+      \pstree{\Tcircle{+}}{
+        \pstree{\Tcircle{/}}{
+          \Tcircle{Q}
+        }
+      }
+    }
+  }
+
+\caption{Query Operator Diagrams}
+  \label{fig:query_operators}
+\end{figure}
+
+\end{document}
