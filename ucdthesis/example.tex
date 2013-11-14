@@ -1,0 +1,75 @@
+% Example UCD Dissertaiton/Thesis template
+\documentclass{ucdthesis}
+
+\usepackage{fancyhdr} 
+\makeindex
+
+\begin{document} 
+
+\title           {Title goes here}
+\author          {Name}
+\isdissertation  {1} % set to 0 for master's thesis
+\degreemonth     {Month}
+\degreeyear      {year}
+\degree          {Doctor of Philosophy}
+%\degree          {Masters of Science}  % Uncomment if a thesis
+\chair           {Dr. Whoever}
+\othermembers    {Dr. Whoever2\\ Dr. Whoever3}
+\numberofmembers {3}
+\prevdegrees     {B.S. (Some College) Some Date\\M.S. (Some College) Some Date}
+\field           {Computer Science}
+\campus          {Davis}
+
+% Abstracts are for dissertations only. The first is not "officially" part
+% of the document and should not be numbered.
+\begin{abstract}
+  Abstract goes here.
+\end{abstract}
+
+\begin{frontmatter}
+
+\maketitle
+
+% Copyright page should immediately follow the title page [Optional]
+\copyrightpage
+
+% Dedication has its own page [Optional]
+\clearpage
+\begin{dedication}
+  \vspace*{\fill}
+  \begin{center}
+  {
+    Dedication goes here.
+  }
+  \end{center}
+  \vspace*{\fill}
+\end{dedication}
+
+% Acknowledgements have their own page [Optional]
+\clearpage
+\begin{acknowledgments}
+  Acknowledgements go here.
+\end{acknowledgments}
+
+% Use these only if you have them. Its recommended
+\clearpage
+\tableofcontents
+\listoffigures
+\listoftables
+
+% As of 6/02, another abstract is required as part of the document for
+% dissertations. This abstract is part of the document, so uses a different
+% environment (inlineabstract as opposed to abstract). It is recommened that is
+% occur in the front matter immediately before the  main content. Again,
+% abstracts are not required for theses.
+\clearpage
+\begin{inlineabstract}
+  Abstract goes here.
+\end{inlineabstract}
+
+\end{frontmatter}
+
+% Start your dissertation/thesis here.
+
+\end{document}
+

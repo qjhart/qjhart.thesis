@@ -1,0 +1,491 @@
+# Plan execute
+
+
+region,each_3_GL_018_ch1_1,w=5755 s=-13275 e=24745 n=-2809
+MASK_from_region,each_3_GL_018_ch1_1,each_3_GL_018_ch1_1
+halve,each_3_GL_018_ch1_1,ch1
+region,each_3_GL_018_ch1_2,w=5755 s=-13275 e=24745 n=-2809
+MASK_from_region,each_3_GL_018_ch1_2,each_3_GL_018_ch1_2
+halve,each_3_GL_018_ch1_2,each_3_GL_018_ch1_1
+region,each_3_GL_018_ch1_int,w=5755 s=-13275 e=24745 n=-2809 ewres=5.38112779824313 nsres=5.38097686375321
+MASK_from_region,each_3_GL_018_ch1_int,each_3_GL_018_ch1_int
+interpolate,each_3_GL_018_ch1_int,each_3_GL_018_ch1_2
+region,each_3_GL_018,w=5755 s=-13275 e=24745 n=-2809,ewres=5.38112779824313 nsres=5.38097686375321
+MASK_from_region,each_3_GL_018,each_3_GL_018
+query,each_3_GL_018,each_3_GL_018_ch1_int
+region,each_3_SA_016_ch1_1,w=21474 s=-11836 e=24793 n=-6514
+MASK_from_region,each_3_SA_016_ch1_1,each_3_SA_016_ch1_1
+halve,each_3_SA_016_ch1_1,ch1
+region,each_3_SA_016_ch1_2,w=21474 s=-11836 e=24793 n=-6514
+MASK_from_region,each_3_SA_016_ch1_2,each_3_SA_016_ch1_2
+halve,each_3_SA_016_ch1_2,each_3_SA_016_ch1_1
+region,each_3_SA_016_ch1_int,w=21474 s=-11836 e=24793 n=-6514 ewres=7.3429203539823 nsres=7.33057851239669
+MASK_from_region,each_3_SA_016_ch1_int,each_3_SA_016_ch1_int
+interpolate,each_3_SA_016_ch1_int,each_3_SA_016_ch1_2
+region,each_3_SA_016,w=21474 s=-11836 e=24793 n=-6514,ewres=7.3429203539823 nsres=7.33057851239669
+MASK_from_region,each_3_SA_016,each_3_SA_016
+query,each_3_SA_016,each_3_SA_016_ch1_int
+region,each_3_SA_043_ch1_1,w=21081 s=-12589 e=24413 n=-7153
+MASK_from_region,each_3_SA_043_ch1_1,each_3_SA_043_ch1_1
+halve,each_3_SA_043_ch1_1,ch1
+region,each_3_SA_043_ch1_int,w=21081 s=-12589 e=24413 n=-7153 ewres=2.76974231088944 nsres=2.77064220183486
+MASK_from_region,each_3_SA_043_ch1_int,each_3_SA_043_ch1_int
+interpolate,each_3_SA_043_ch1_int,each_3_SA_043_ch1_1
+region,each_3_SA_043,w=21081 s=-12589 e=24413 n=-7153,ewres=2.76974231088944 nsres=2.77064220183486
+MASK_from_region,each_3_SA_043,each_3_SA_043
+query,each_3_SA_043,each_3_SA_043_ch1_int
+region,each_3_GL_029_ch1_1,w=5480 s=-13249 e=24816 n=-2837
+MASK_from_region,each_3_GL_029_ch1_1,each_3_GL_029_ch1_1
+halve,each_3_GL_029_ch1_1,ch1
+region,each_3_GL_029_ch1_int,w=5480 s=-13249 e=24816 n=-2837 ewres=3.23074352548037 nsres=3.23053056158858
+MASK_from_region,each_3_GL_029_ch1_int,each_3_GL_029_ch1_int
+interpolate,each_3_GL_029_ch1_int,each_3_GL_029_ch1_1
+region,each_3_GL_029,w=5480 s=-13249 e=24816 n=-2837,ewres=3.23074352548037 nsres=3.23053056158858
+MASK_from_region,each_3_GL_029,each_3_GL_029
+query,each_3_GL_029,each_3_GL_029_ch1_int
+region,each_3_NH_046_ch1_1,w=9446 s=-8473 e=22775 n=-3859
+MASK_from_region,each_3_NH_046_ch1_1,each_3_NH_046_ch1_1
+halve,each_3_NH_046_ch1_1,ch1
+region,each_3_NH_046_ch1_int,w=9446 s=-8473 e=22775 n=-3859 ewres=2.26030184839749 nsres=2.25954946131244
+MASK_from_region,each_3_NH_046_ch1_int,each_3_NH_046_ch1_int
+interpolate,each_3_NH_046_ch1_int,each_3_NH_046_ch1_1
+region,each_3_NH_046,w=9446 s=-8473 e=22775 n=-3859,ewres=2.26030184839749 nsres=2.25954946131244
+MASK_from_region,each_3_NH_046,each_3_NH_046
+query,each_3_NH_046,each_3_NH_046_ch1_int
+region,each_3_MX_023_ch1_1,w=18489 s=-7022 e=21134 n=-4148
+MASK_from_region,each_3_MX_023_ch1_1,each_3_MX_023_ch1_1
+halve,each_3_MX_023_ch1_1,ch1
+region,each_3_MX_023_ch1_int,w=18489 s=-7022 e=21134 n=-4148 ewres=3.66851595006935 nsres=3.67049808429119
+MASK_from_region,each_3_MX_023_ch1_int,each_3_MX_023_ch1_int
+interpolate,each_3_MX_023_ch1_int,each_3_MX_023_ch1_1
+region,each_3_MX_023,w=18489 s=-7022 e=21134 n=-4148,ewres=3.66851595006935 nsres=3.67049808429119
+MASK_from_region,each_3_MX_023,each_3_MX_023
+query,each_3_MX_023,each_3_MX_023_ch1_int
+region,each_3_US_031_ch1_1,w=17531 s=-5090 e=23239 n=-3430
+MASK_from_region,each_3_US_031_ch1_1,each_3_US_031_ch1_1
+halve,each_3_US_031_ch1_1,ch1
+region,each_3_US_031_ch1_int,w=17531 s=-5090 e=23239 n=-3430 ewres=2.42997020008514 nsres=2.43401759530792
+MASK_from_region,each_3_US_031_ch1_int,each_3_US_031_ch1_int
+interpolate,each_3_US_031_ch1_int,each_3_US_031_ch1_1
+region,each_3_US_031,w=17531 s=-5090 e=23239 n=-3430,ewres=2.42997020008514 nsres=2.43401759530792
+MASK_from_region,each_3_US_031,each_3_US_031
+query,each_3_US_031,each_3_US_031_ch1_int
+region,each_3_SA_025_ch1_int,w=21142 s=-12544 e=24459 n=-6780 ewres=1.53068758652515 nsres=1.53053637812002
+MASK_from_region,each_3_SA_025_ch1_int,each_3_SA_025_ch1_int
+interpolate,each_3_SA_025_ch1_int,ch1
+region,each_3_SA_025,w=21142 s=-12544 e=24459 n=-6780,ewres=1.53068758652515 nsres=1.53053637812002
+MASK_from_region,each_3_SA_025,each_3_SA_025
+query,each_3_SA_025,each_3_SA_025_ch1_int
+region,each_3_US_032_ch1_1,w=16479 s=-5117 e=22171 n=-3457
+MASK_from_region,each_3_US_032_ch1_1,each_3_US_032_ch1_1
+halve,each_3_US_032_ch1_1,ch1
+region,each_3_US_032_ch1_int,w=16479 s=-5117 e=22171 n=-3457 ewres=2.47048611111111 nsres=2.47391952309985
+MASK_from_region,each_3_US_032_ch1_int,each_3_US_032_ch1_int
+interpolate,each_3_US_032_ch1_int,each_3_US_032_ch1_1
+region,each_3_US_032,w=16479 s=-5117 e=22171 n=-3457,ewres=2.47048611111111 nsres=2.47391952309985
+MASK_from_region,each_3_US_032,each_3_US_032
+query,each_3_US_032,each_3_US_032_ch1_int
+region,each_3_SA_030_ch1_int,w=20911 s=-12037 e=24455 n=-6633 ewres=1.96017699115044 nsres=1.96081277213353
+MASK_from_region,each_3_SA_030_ch1_int,each_3_SA_030_ch1_int
+interpolate,each_3_SA_030_ch1_int,ch1
+region,each_3_SA_030,w=20911 s=-12037 e=24455 n=-6633,ewres=1.96017699115044 nsres=1.96081277213353
+MASK_from_region,each_3_SA_030,each_3_SA_030
+query,each_3_SA_030,each_3_SA_030_ch1_int
+region,each_3_SA_006_ch1_1,w=21097 s=-11890 e=24244 n=-7148
+MASK_from_region,each_3_SA_006_ch1_1,each_3_SA_006_ch1_1
+halve,each_3_SA_006_ch1_1,ch1
+region,each_3_SA_006_ch1_int,w=21097 s=-11890 e=24244 n=-7148 ewres=2.07175773535221 nsres=2.0707423580786
+MASK_from_region,each_3_SA_006_ch1_int,each_3_SA_006_ch1_int
+interpolate,each_3_SA_006_ch1_int,each_3_SA_006_ch1_1
+region,each_3_SA_006,w=21097 s=-11890 e=24244 n=-7148,ewres=2.07175773535221 nsres=2.0707423580786
+MASK_from_region,each_3_SA_006,each_3_SA_006
+query,each_3_SA_006,each_3_SA_006_ch1_int
+region,each_3_NH_039_ch1_1,w=8603 s=-7941 e=22935 n=-2637
+MASK_from_region,each_3_NH_039_ch1_1,each_3_NH_039_ch1_1
+halve,each_3_NH_039_ch1_1,ch1
+region,each_3_NH_039_ch1_2,w=8603 s=-7941 e=22935 n=-2637
+MASK_from_region,each_3_NH_039_ch1_2,each_3_NH_039_ch1_2
+halve,each_3_NH_039_ch1_2,each_3_NH_039_ch1_1
+region,each_3_NH_039_ch1_int,w=8603 s=-7941 e=22935 n=-2637 ewres=4.67144719687093 nsres=4.66901408450704
+MASK_from_region,each_3_NH_039_ch1_int,each_3_NH_039_ch1_int
+interpolate,each_3_NH_039_ch1_int,each_3_NH_039_ch1_2
+region,each_3_NH_039,w=8603 s=-7941 e=22935 n=-2637,ewres=4.67144719687093 nsres=4.66901408450704
+MASK_from_region,each_3_NH_039,each_3_NH_039
+query,each_3_NH_039,each_3_NH_039_ch1_int
+region,each_3_SA_003_ch1_1,w=21396 s=-12504 e=24624 n=-7727
+MASK_from_region,each_3_SA_003_ch1_1,each_3_SA_003_ch1_1
+halve,each_3_SA_003_ch1_1,ch1
+region,each_3_SA_003_ch1_int,w=21396 s=-12504 e=24624 n=-7727 ewres=3.43404255319149 nsres=3.42928930366116
+MASK_from_region,each_3_SA_003_ch1_int,each_3_SA_003_ch1_int
+interpolate,each_3_SA_003_ch1_int,each_3_SA_003_ch1_1
+region,each_3_SA_003,w=21396 s=-12504 e=24624 n=-7727,ewres=3.43404255319149 nsres=3.42928930366116
+MASK_from_region,each_3_SA_003,each_3_SA_003
+query,each_3_SA_003,each_3_SA_003_ch1_int
+region,each_3_NH_033_ch1_int,w=9732 s=-8439 e=22638 n=-3863 ewres=1.31012079991879 nsres=1.31042382588774
+MASK_from_region,each_3_NH_033_ch1_int,each_3_NH_033_ch1_int
+interpolate,each_3_NH_033_ch1_int,ch1
+region,each_3_NH_033,w=9732 s=-8439 e=22638 n=-3863,ewres=1.31012079991879 nsres=1.31042382588774
+MASK_from_region,each_3_NH_033,each_3_NH_033
+query,each_3_NH_033,each_3_NH_033_ch1_int
+region,each_3_MX_027_ch1_1,w=18632 s=-7088 e=21314 n=-4152
+MASK_from_region,each_3_MX_027_ch1_1,each_3_MX_027_ch1_1
+halve,each_3_MX_027_ch1_1,ch1
+region,each_3_MX_027_ch1_int,w=18632 s=-7088 e=21314 n=-4152 ewres=2.36925795053004 nsres=2.37156704361874
+MASK_from_region,each_3_MX_027_ch1_int,each_3_MX_027_ch1_int
+interpolate,each_3_MX_027_ch1_int,each_3_MX_027_ch1_1
+region,each_3_MX_027,w=18632 s=-7088 e=21314 n=-4152,ewres=2.36925795053004 nsres=2.37156704361874
+MASK_from_region,each_3_MX_027,each_3_MX_027
+query,each_3_MX_027,each_3_MX_027_ch1_int
+region,each_3_GL_019_ch1_1,w=6176 s=-13343 e=24688 n=-2488
+MASK_from_region,each_3_GL_019_ch1_1,each_3_GL_019_ch1_1
+halve,each_3_GL_019_ch1_1,ch1
+region,each_3_GL_019_ch1_int,w=6176 s=-13343 e=24688 n=-2488 ewres=2.37029449423816 nsres=2.37060493557545
+MASK_from_region,each_3_GL_019_ch1_int,each_3_GL_019_ch1_int
+interpolate,each_3_GL_019_ch1_int,each_3_GL_019_ch1_1
+region,each_3_GL_019,w=6176 s=-13343 e=24688 n=-2488,ewres=2.37029449423816 nsres=2.37060493557545
+MASK_from_region,each_3_GL_019,each_3_GL_019
+query,each_3_GL_019,each_3_GL_019_ch1_int
+region,each_3_SA_007_ch1_1,w=20851 s=-11942 e=24294 n=-6962
+MASK_from_region,each_3_SA_007_ch1_1,each_3_SA_007_ch1_1
+halve,each_3_SA_007_ch1_1,ch1
+region,each_3_SA_007_ch1_int,w=20851 s=-11942 e=24294 n=-6962 ewres=2.26961107448912 nsres=2.26982680036463
+MASK_from_region,each_3_SA_007_ch1_int,each_3_SA_007_ch1_int
+interpolate,each_3_SA_007_ch1_int,each_3_SA_007_ch1_1
+region,each_3_SA_007,w=20851 s=-11942 e=24294 n=-6962,ewres=2.26961107448912 nsres=2.26982680036463
+MASK_from_region,each_3_SA_007,each_3_SA_007
+query,each_3_SA_007,each_3_SA_007_ch1_int
+region,each_3_GL_002_ch1_1,w=5846 s=-12996 e=24288 n=-2642
+MASK_from_region,each_3_GL_002_ch1_1,each_3_GL_002_ch1_1
+halve,each_3_GL_002_ch1_1,ch1
+region,each_3_GL_002_ch1_int,w=5846 s=-12996 e=24288 n=-2642 ewres=2.24028182701652 nsres=2.24064055399264
+MASK_from_region,each_3_GL_002_ch1_int,each_3_GL_002_ch1_int
+interpolate,each_3_GL_002_ch1_int,each_3_GL_002_ch1_1
+region,each_3_GL_002,w=5846 s=-12996 e=24288 n=-2642,ewres=2.24028182701652 nsres=2.24064055399264
+MASK_from_region,each_3_GL_002,each_3_GL_002
+query,each_3_GL_002,each_3_GL_002_ch1_int
+region,each_3_US_034_ch1_1,w=16702 s=-4990 e=23057 n=-3292
+MASK_from_region,each_3_US_034_ch1_1,each_3_US_034_ch1_1
+halve,each_3_US_034_ch1_1,ch1
+region,each_3_US_034_ch1_2,w=16702 s=-4990 e=23057 n=-3292
+MASK_from_region,each_3_US_034_ch1_2,each_3_US_034_ch1_2
+halve,each_3_US_034_ch1_2,each_3_US_034_ch1_1
+region,each_3_US_034_ch1_int,w=16702 s=-4990 e=23057 n=-3292 ewres=5.07182761372705 nsres=5.08383233532934
+MASK_from_region,each_3_US_034_ch1_int,each_3_US_034_ch1_int
+interpolate,each_3_US_034_ch1_int,each_3_US_034_ch1_2
+region,each_3_US_034,w=16702 s=-4990 e=23057 n=-3292,ewres=5.07182761372705 nsres=5.08383233532934
+MASK_from_region,each_3_US_034,each_3_US_034
+query,each_3_US_034,each_3_US_034_ch1_int
+region,each_3_SA_008_ch1_1,w=21064 s=-11943 e=24434 n=-6754
+MASK_from_region,each_3_SA_008_ch1_1,each_3_SA_008_ch1_1
+halve,each_3_SA_008_ch1_1,ch1
+region,each_3_SA_008_ch1_2,w=21064 s=-11943 e=24434 n=-6754
+MASK_from_region,each_3_SA_008_ch1_2,each_3_SA_008_ch1_2
+halve,each_3_SA_008_ch1_2,each_3_SA_008_ch1_1
+region,each_3_SA_008_ch1_int,w=21064 s=-11943 e=24434 n=-6754 ewres=6.62082514734774 nsres=6.61019108280255
+MASK_from_region,each_3_SA_008_ch1_int,each_3_SA_008_ch1_int
+interpolate,each_3_SA_008_ch1_int,each_3_SA_008_ch1_2
+region,each_3_SA_008,w=21064 s=-11943 e=24434 n=-6754,ewres=6.62082514734774 nsres=6.61019108280255
+MASK_from_region,each_3_SA_008,each_3_SA_008
+query,each_3_SA_008,each_3_SA_008_ch1_int
+region,each_3_GL_041_ch1_1,w=5835 s=-12903 e=22885 n=-2871
+MASK_from_region,each_3_GL_041_ch1_1,each_3_GL_041_ch1_1
+halve,each_3_GL_041_ch1_1,ch1
+region,each_3_GL_041_ch1_int,w=5835 s=-12903 e=22885 n=-2871 ewres=3.9303826648225 nsres=3.92949471210341
+MASK_from_region,each_3_GL_041_ch1_int,each_3_GL_041_ch1_int
+interpolate,each_3_GL_041_ch1_int,each_3_GL_041_ch1_1
+region,each_3_GL_041,w=5835 s=-12903 e=22885 n=-2871,ewres=3.9303826648225 nsres=3.92949471210341
+MASK_from_region,each_3_GL_041,each_3_GL_041
+query,each_3_GL_041,each_3_GL_041_ch1_int
+region,each_3_NH_013_ch1_1,w=9441 s=-7987 e=22942 n=-3024
+MASK_from_region,each_3_NH_013_ch1_1,each_3_NH_013_ch1_1
+halve,each_3_NH_013_ch1_1,ch1
+region,each_3_NH_013_ch1_int,w=9441 s=-7987 e=22942 n=-3024 ewres=2.78084449021627 nsres=2.78195067264574
+MASK_from_region,each_3_NH_013_ch1_int,each_3_NH_013_ch1_int
+interpolate,each_3_NH_013_ch1_int,each_3_NH_013_ch1_1
+region,each_3_NH_013,w=9441 s=-7987 e=22942 n=-3024,ewres=2.78084449021627 nsres=2.78195067264574
+MASK_from_region,each_3_NH_013,each_3_NH_013
+query,each_3_NH_013,each_3_NH_013_ch1_int
+region,each_3_RN_040_ch1_1,w=8976 s=-9099 e=18559 n=-4328
+MASK_from_region,each_3_RN_040_ch1_1,each_3_RN_040_ch1_1
+halve,each_3_RN_040_ch1_1,ch1
+region,each_3_RN_040_ch1_2,w=8976 s=-9099 e=18559 n=-4328
+MASK_from_region,each_3_RN_040_ch1_2,each_3_RN_040_ch1_2
+halve,each_3_RN_040_ch1_2,each_3_RN_040_ch1_1
+region,each_3_RN_040_ch1_3,w=8976 s=-9099 e=18559 n=-4328
+MASK_from_region,each_3_RN_040_ch1_3,each_3_RN_040_ch1_3
+halve,each_3_RN_040_ch1_3,each_3_RN_040_ch1_2
+region,each_3_RN_040_ch1_int,w=8976 s=-9099 e=18559 n=-4328 ewres=9.50694444444444 nsres=9.50398406374502
+MASK_from_region,each_3_RN_040_ch1_int,each_3_RN_040_ch1_int
+interpolate,each_3_RN_040_ch1_int,each_3_RN_040_ch1_3
+region,each_3_RN_040,w=8976 s=-9099 e=18559 n=-4328,ewres=9.50694444444444 nsres=9.50398406374502
+MASK_from_region,each_3_RN_040,each_3_RN_040
+query,each_3_RN_040,each_3_RN_040_ch1_int
+region,each_3_US_011_ch1_1,w=17530 s=-4916 e=23258 n=-3453
+MASK_from_region,each_3_US_011_ch1_1,each_3_US_011_ch1_1
+halve,each_3_US_011_ch1_1,ch1
+region,each_3_US_011_ch1_int,w=17530 s=-4916 e=23258 n=-3453 ewres=2.70188679245283 nsres=2.69926199261993
+MASK_from_region,each_3_US_011_ch1_int,each_3_US_011_ch1_int
+interpolate,each_3_US_011_ch1_int,each_3_US_011_ch1_1
+region,each_3_US_011,w=17530 s=-4916 e=23258 n=-3453,ewres=2.70188679245283 nsres=2.69926199261993
+MASK_from_region,each_3_US_011,each_3_US_011
+query,each_3_US_011,each_3_US_011_ch1_int
+region,each_3_NH_047_ch1_1,w=7773 s=-8441 e=23107 n=-3360
+MASK_from_region,each_3_NH_047_ch1_1,each_3_NH_047_ch1_1
+halve,each_3_NH_047_ch1_1,ch1
+region,each_3_NH_047_ch1_int,w=7773 s=-8441 e=23107 n=-3360 ewres=3.65008331349679 nsres=3.65276779295471
+MASK_from_region,each_3_NH_047_ch1_int,each_3_NH_047_ch1_int
+interpolate,each_3_NH_047_ch1_int,each_3_NH_047_ch1_1
+region,each_3_NH_047,w=7773 s=-8441 e=23107 n=-3360,ewres=3.65008331349679 nsres=3.65276779295471
+MASK_from_region,each_3_NH_047,each_3_NH_047
+query,each_3_NH_047,each_3_NH_047_ch1_int
+region,each_3_US_014_ch1_1,w=16942 s=-5022 e=22849 n=-3450
+MASK_from_region,each_3_US_014_ch1_1,each_3_US_014_ch1_1
+halve,each_3_US_014_ch1_1,ch1
+region,each_3_US_014_ch1_2,w=16942 s=-5022 e=22849 n=-3450
+MASK_from_region,each_3_US_014_ch1_2,each_3_US_014_ch1_2
+halve,each_3_US_014_ch1_2,each_3_US_014_ch1_1
+region,each_3_US_014_ch1_int,w=16942 s=-5022 e=22849 n=-3450 ewres=4.04312114989733 nsres=4.05154639175258
+MASK_from_region,each_3_US_014_ch1_int,each_3_US_014_ch1_int
+interpolate,each_3_US_014_ch1_int,each_3_US_014_ch1_2
+region,each_3_US_014,w=16942 s=-5022 e=22849 n=-3450,ewres=4.04312114989733 nsres=4.05154639175258
+MASK_from_region,each_3_US_014,each_3_US_014
+query,each_3_US_014,each_3_US_014_ch1_int
+region,each_3_WC_017_ch1_int,w=15809 s=-6571 e=17997 n=-3033 ewres=1.3406862745098 nsres=1.34065934065934
+MASK_from_region,each_3_WC_017_ch1_int,each_3_WC_017_ch1_int
+interpolate,each_3_WC_017_ch1_int,ch1
+region,each_3_WC_017,w=15809 s=-6571 e=17997 n=-3033,ewres=1.3406862745098 nsres=1.34065934065934
+MASK_from_region,each_3_WC_017,each_3_WC_017
+query,each_3_WC_017,each_3_WC_017_ch1_int
+region,each_3_GL_000_ch1_1,w=6215 s=-13168 e=24543 n=-2851
+MASK_from_region,each_3_GL_000_ch1_1,each_3_GL_000_ch1_1
+halve,each_3_GL_000_ch1_1,ch1
+region,each_3_GL_000_ch1_2,w=6215 s=-13168 e=24543 n=-2851
+MASK_from_region,each_3_GL_000_ch1_2,each_3_GL_000_ch1_2
+halve,each_3_GL_000_ch1_2,each_3_GL_000_ch1_1
+region,each_3_GL_000_ch1_int,w=6215 s=-13168 e=24543 n=-2851 ewres=7.47166734610681 nsres=7.47608695652174
+MASK_from_region,each_3_GL_000_ch1_int,each_3_GL_000_ch1_int
+interpolate,each_3_GL_000_ch1_int,each_3_GL_000_ch1_2
+region,each_3_GL_000,w=6215 s=-13168 e=24543 n=-2851,ewres=7.47166734610681 nsres=7.47608695652174
+MASK_from_region,each_3_GL_000,each_3_GL_000
+query,each_3_GL_000,each_3_GL_000_ch1_int
+region,each_3_US_004_ch1_1,w=16627 s=-4923 e=22051 n=-3459
+MASK_from_region,each_3_US_004_ch1_1,each_3_US_004_ch1_1
+halve,each_3_US_004_ch1_1,ch1
+region,each_3_US_004_ch1_int,w=16627 s=-4923 e=22051 n=-3459 ewres=2.84127815610267 nsres=2.84824902723735
+MASK_from_region,each_3_US_004_ch1_int,each_3_US_004_ch1_int
+interpolate,each_3_US_004_ch1_int,each_3_US_004_ch1_1
+region,each_3_US_004,w=16627 s=-4923 e=22051 n=-3459,ewres=2.84127815610267 nsres=2.84824902723735
+MASK_from_region,each_3_US_004,each_3_US_004
+query,each_3_US_004,each_3_US_004_ch1_int
+region,each_3_SA_045_ch1_1,w=20999 s=-12379 e=24496 n=-6810
+MASK_from_region,each_3_SA_045_ch1_1,each_3_SA_045_ch1_1
+halve,each_3_SA_045_ch1_1,ch1
+region,each_3_SA_045_ch1_int,w=20999 s=-12379 e=24496 n=-6810 ewres=2.63924528301887 nsres=2.64184060721063
+MASK_from_region,each_3_SA_045_ch1_int,each_3_SA_045_ch1_int
+interpolate,each_3_SA_045_ch1_int,each_3_SA_045_ch1_1
+region,each_3_SA_045,w=20999 s=-12379 e=24496 n=-6810,ewres=2.63924528301887 nsres=2.64184060721063
+MASK_from_region,each_3_SA_045,each_3_SA_045
+query,each_3_SA_045,each_3_SA_045_ch1_int
+region,each_3_RN_010_ch1_1,w=6708 s=-8422 e=14703 n=-4554
+MASK_from_region,each_3_RN_010_ch1_1,each_3_RN_010_ch1_1
+halve,each_3_RN_010_ch1_1,ch1
+region,each_3_RN_010_ch1_2,w=6708 s=-8422 e=14703 n=-4554
+MASK_from_region,each_3_RN_010_ch1_2,each_3_RN_010_ch1_2
+halve,each_3_RN_010_ch1_2,each_3_RN_010_ch1_1
+region,each_3_RN_010_ch1_int,w=6708 s=-8422 e=14703 n=-4554 ewres=4.66180758017493 nsres=4.66024096385542
+MASK_from_region,each_3_RN_010_ch1_int,each_3_RN_010_ch1_int
+interpolate,each_3_RN_010_ch1_int,each_3_RN_010_ch1_2
+region,each_3_RN_010,w=6708 s=-8422 e=14703 n=-4554,ewres=4.66180758017493 nsres=4.66024096385542
+MASK_from_region,each_3_RN_010,each_3_RN_010
+query,each_3_RN_010,each_3_RN_010_ch1_int
+region,each_3_SA_037_ch1_1,w=21465 s=-12330 e=24583 n=-7024
+MASK_from_region,each_3_SA_037_ch1_1,each_3_SA_037_ch1_1
+halve,each_3_SA_037_ch1_1,ch1
+region,each_3_SA_037_ch1_2,w=21465 s=-12330 e=24583 n=-7024
+MASK_from_region,each_3_SA_037_ch1_2,each_3_SA_037_ch1_2
+halve,each_3_SA_037_ch1_2,each_3_SA_037_ch1_1
+region,each_3_SA_037_ch1_int,w=21465 s=-12330 e=24583 n=-7024 ewres=5.14521452145215 nsres=5.14645974781765
+MASK_from_region,each_3_SA_037_ch1_int,each_3_SA_037_ch1_int
+interpolate,each_3_SA_037_ch1_int,each_3_SA_037_ch1_2
+region,each_3_SA_037,w=21465 s=-12330 e=24583 n=-7024,ewres=5.14521452145215 nsres=5.14645974781765
+MASK_from_region,each_3_SA_037,each_3_SA_037
+query,each_3_SA_037,each_3_SA_037_ch1_int
+region,each_3_NH_026_ch1_1,w=8583 s=-8164 e=22333 n=-3533
+MASK_from_region,each_3_NH_026_ch1_1,each_3_NH_026_ch1_1
+halve,each_3_NH_026_ch1_1,ch1
+region,each_3_NH_026_ch1_2,w=8583 s=-8164 e=22333 n=-3533
+MASK_from_region,each_3_NH_026_ch1_2,each_3_NH_026_ch1_2
+halve,each_3_NH_026_ch1_2,each_3_NH_026_ch1_1
+region,each_3_NH_026_ch1_int,w=8583 s=-8164 e=22333 n=-3533 ewres=5.10204081632653 nsres=5.10022026431718
+MASK_from_region,each_3_NH_026_ch1_int,each_3_NH_026_ch1_int
+interpolate,each_3_NH_026_ch1_int,each_3_NH_026_ch1_2
+region,each_3_NH_026,w=8583 s=-8164 e=22333 n=-3533,ewres=5.10204081632653 nsres=5.10022026431718
+MASK_from_region,each_3_NH_026,each_3_NH_026
+query,each_3_NH_026,each_3_NH_026_ch1_int
+region,each_3_RN_005_ch1_1,w=8515 s=-10722 e=18117 n=-3834
+MASK_from_region,each_3_RN_005_ch1_1,each_3_RN_005_ch1_1
+halve,each_3_RN_005_ch1_1,ch1
+region,each_3_RN_005_ch1_2,w=8515 s=-10722 e=18117 n=-3834
+MASK_from_region,each_3_RN_005_ch1_2,each_3_RN_005_ch1_2
+halve,each_3_RN_005_ch1_2,each_3_RN_005_ch1_1
+region,each_3_RN_005_ch1_3,w=8515 s=-10722 e=18117 n=-3834
+MASK_from_region,each_3_RN_005_ch1_3,each_3_RN_005_ch1_3
+halve,each_3_RN_005_ch1_3,each_3_RN_005_ch1_2
+region,each_3_RN_005_ch1_int,w=8515 s=-10722 e=18117 n=-3834 ewres=11.0367816091954 nsres=11.0561797752809
+MASK_from_region,each_3_RN_005_ch1_int,each_3_RN_005_ch1_int
+interpolate,each_3_RN_005_ch1_int,each_3_RN_005_ch1_3
+region,each_3_RN_005,w=8515 s=-10722 e=18117 n=-3834,ewres=11.0367816091954 nsres=11.0561797752809
+MASK_from_region,each_3_RN_005,each_3_RN_005
+query,each_3_RN_005,each_3_RN_005_ch1_int
+region,each_3_GL_015_ch1_1,w=6146 s=-12782 e=24593 n=-2794
+MASK_from_region,each_3_GL_015_ch1_1,each_3_GL_015_ch1_1
+halve,each_3_GL_015_ch1_1,ch1
+region,each_3_GL_015_ch1_int,w=6146 s=-12782 e=24593 n=-2794 ewres=2.45045164718385 nsres=2.450441609421
+MASK_from_region,each_3_GL_015_ch1_int,each_3_GL_015_ch1_int
+interpolate,each_3_GL_015_ch1_int,each_3_GL_015_ch1_1
+region,each_3_GL_015,w=6146 s=-12782 e=24593 n=-2794,ewres=2.45045164718385 nsres=2.450441609421
+MASK_from_region,each_3_GL_015,each_3_GL_015
+query,each_3_GL_015,each_3_GL_015_ch1_int
+region,each_3_SA_028_ch1_int,w=21193 s=-11870 e=24289 n=-6968 ewres=1.87978142076503 nsres=1.88104374520338
+MASK_from_region,each_3_SA_028_ch1_int,each_3_SA_028_ch1_int
+interpolate,each_3_SA_028_ch1_int,ch1
+region,each_3_SA_028,w=21193 s=-11870 e=24289 n=-6968,ewres=1.87978142076503 nsres=1.88104374520338
+MASK_from_region,each_3_SA_028,each_3_SA_028
+query,each_3_SA_028,each_3_SA_028_ch1_int
+region,each_3_US_038_ch1_int,w=17070 s=-5172 e=23022 n=-3351 ewres=1.85074626865672 nsres=1.85249237029502
+MASK_from_region,each_3_US_038_ch1_int,each_3_US_038_ch1_int
+interpolate,each_3_US_038_ch1_int,ch1
+region,each_3_US_038,w=17070 s=-5172 e=23022 n=-3351,ewres=1.85074626865672 nsres=1.85249237029502
+MASK_from_region,each_3_US_038,each_3_US_038
+query,each_3_US_038,each_3_US_038_ch1_int
+region,each_3_NH_020_ch1_1,w=9843 s=-8219 e=24199 n=-2683
+MASK_from_region,each_3_NH_020_ch1_1,each_3_NH_020_ch1_1
+halve,each_3_NH_020_ch1_1,ch1
+region,each_3_NH_020_ch1_2,w=9843 s=-8219 e=24199 n=-2683
+MASK_from_region,each_3_NH_020_ch1_2,each_3_NH_020_ch1_2
+halve,each_3_NH_020_ch1_2,each_3_NH_020_ch1_1
+region,each_3_NH_020_ch1_int,w=9843 s=-8219 e=24199 n=-2683 ewres=4.37149817295981 nsres=4.37282780410743
+MASK_from_region,each_3_NH_020_ch1_int,each_3_NH_020_ch1_int
+interpolate,each_3_NH_020_ch1_int,each_3_NH_020_ch1_2
+region,each_3_NH_020,w=9843 s=-8219 e=24199 n=-2683,ewres=4.37149817295981 nsres=4.37282780410743
+MASK_from_region,each_3_NH_020,each_3_NH_020
+query,each_3_NH_020,each_3_NH_020_ch1_int
+region,each_3_WC_012_ch1_int,w=15689 s=-6450 e=17845 n=-3253 ewres=1.4 nsres=1.39973730297723
+MASK_from_region,each_3_WC_012_ch1_int,each_3_WC_012_ch1_int
+interpolate,each_3_WC_012_ch1_int,ch1
+region,each_3_WC_012,w=15689 s=-6450 e=17845 n=-3253,ewres=1.4 nsres=1.39973730297723
+MASK_from_region,each_3_WC_012,each_3_WC_012
+query,each_3_WC_012,each_3_WC_012_ch1_int
+region,each_3_SA_021_ch1_1,w=20847 s=-11938 e=24327 n=-6490
+MASK_from_region,each_3_SA_021_ch1_1,each_3_SA_021_ch1_1
+halve,each_3_SA_021_ch1_1,ch1
+region,each_3_SA_021_ch1_2,w=20847 s=-11938 e=24327 n=-6490
+MASK_from_region,each_3_SA_021_ch1_2,each_3_SA_021_ch1_2
+halve,each_3_SA_021_ch1_2,each_3_SA_021_ch1_1
+region,each_3_SA_021_ch1_int,w=20847 s=-11938 e=24327 n=-6490 ewres=6.51685393258427 nsres=6.51674641148325
+MASK_from_region,each_3_SA_021_ch1_int,each_3_SA_021_ch1_int
+interpolate,each_3_SA_021_ch1_int,each_3_SA_021_ch1_2
+region,each_3_SA_021,w=20847 s=-11938 e=24327 n=-6490,ewres=6.51685393258427 nsres=6.51674641148325
+MASK_from_region,each_3_SA_021,each_3_SA_021
+query,each_3_SA_021,each_3_SA_021_ch1_int
+region,each_3_US_049_ch1_1,w=16696 s=-5021 e=22360 n=-3539
+MASK_from_region,each_3_US_049_ch1_1,each_3_US_049_ch1_1
+halve,each_3_US_049_ch1_1,ch1
+region,each_3_US_049_ch1_2,w=16696 s=-5021 e=22360 n=-3539
+MASK_from_region,each_3_US_049_ch1_2,each_3_US_049_ch1_2
+halve,each_3_US_049_ch1_2,each_3_US_049_ch1_1
+region,each_3_US_049_ch1_int,w=16696 s=-5021 e=22360 n=-3539 ewres=4.89541918755402 nsres=4.90728476821192
+MASK_from_region,each_3_US_049_ch1_int,each_3_US_049_ch1_int
+interpolate,each_3_US_049_ch1_int,each_3_US_049_ch1_2
+region,each_3_US_049,w=16696 s=-5021 e=22360 n=-3539,ewres=4.89541918755402 nsres=4.90728476821192
+MASK_from_region,each_3_US_049,each_3_US_049
+query,each_3_US_049,each_3_US_049_ch1_int
+region,each_3_SA_044_ch1_1,w=21088 s=-13020 e=24861 n=-7236
+MASK_from_region,each_3_SA_044_ch1_1,each_3_SA_044_ch1_1
+halve,each_3_SA_044_ch1_1,ch1
+region,each_3_SA_044_ch1_2,w=21088 s=-13020 e=24861 n=-7236
+MASK_from_region,each_3_SA_044_ch1_2,each_3_SA_044_ch1_2
+halve,each_3_SA_044_ch1_2,each_3_SA_044_ch1_1
+region,each_3_SA_044_ch1_int,w=21088 s=-13020 e=24861 n=-7236 ewres=4.9 nsres=4.9058524173028
+MASK_from_region,each_3_SA_044_ch1_int,each_3_SA_044_ch1_int
+interpolate,each_3_SA_044_ch1_int,each_3_SA_044_ch1_2
+region,each_3_SA_044,w=21088 s=-13020 e=24861 n=-7236,ewres=4.9 nsres=4.9058524173028
+MASK_from_region,each_3_SA_044,each_3_SA_044
+query,each_3_SA_044,each_3_SA_044_ch1_int
+region,each_3_SA_048_ch1_1,w=21498 s=-12632 e=24977 n=-7308
+MASK_from_region,each_3_SA_048_ch1_1,each_3_SA_048_ch1_1
+halve,each_3_SA_048_ch1_1,ch1
+region,each_3_SA_048_ch1_int,w=21498 s=-12632 e=24977 n=-7308 ewres=2.42946927374302 nsres=2.4310502283105
+MASK_from_region,each_3_SA_048_ch1_int,each_3_SA_048_ch1_int
+interpolate,each_3_SA_048_ch1_int,each_3_SA_048_ch1_1
+region,each_3_SA_048,w=21498 s=-12632 e=24977 n=-7308,ewres=2.42946927374302 nsres=2.4310502283105
+MASK_from_region,each_3_SA_048,each_3_SA_048
+query,each_3_SA_048,each_3_SA_048_ch1_int
+region,each_3_MX_009_ch1_1,w=18617 s=-7385 e=21085 n=-4444
+MASK_from_region,each_3_MX_009_ch1_1,each_3_MX_009_ch1_1
+halve,each_3_MX_009_ch1_1,ch1
+region,each_3_MX_009_ch1_int,w=18617 s=-7385 e=21085 n=-4444 ewres=2.57083333333333 nsres=2.57305336832896
+MASK_from_region,each_3_MX_009_ch1_int,each_3_MX_009_ch1_int
+interpolate,each_3_MX_009_ch1_int,each_3_MX_009_ch1_1
+region,each_3_MX_009,w=18617 s=-7385 e=21085 n=-4444,ewres=2.57083333333333 nsres=2.57305336832896
+MASK_from_region,each_3_MX_009,each_3_MX_009
+query,each_3_MX_009,each_3_MX_009_ch1_int
+region,each_3_WC_024_ch1_1,w=15679 s=-6213 e=17955 n=-2832
+MASK_from_region,each_3_WC_024_ch1_1,each_3_WC_024_ch1_1
+halve,each_3_WC_024_ch1_1,ch1
+region,each_3_WC_024_ch1_2,w=15679 s=-6213 e=17955 n=-2832
+MASK_from_region,each_3_WC_024_ch1_2,each_3_WC_024_ch1_2
+halve,each_3_WC_024_ch1_2,each_3_WC_024_ch1_1
+region,each_3_WC_024_ch1_int,w=15679 s=-6213 e=17955 n=-2832 ewres=4.70247933884298 nsres=4.69583333333333
+MASK_from_region,each_3_WC_024_ch1_int,each_3_WC_024_ch1_int
+interpolate,each_3_WC_024_ch1_int,each_3_WC_024_ch1_2
+region,each_3_WC_024,w=15679 s=-6213 e=17955 n=-2832,ewres=4.70247933884298 nsres=4.69583333333333
+MASK_from_region,each_3_WC_024,each_3_WC_024
+query,each_3_WC_024,each_3_WC_024_ch1_int
+region,each_3_MX_036_ch1_1,w=18783 s=-7189 e=21080 n=-4651
+MASK_from_region,each_3_MX_036_ch1_1,each_3_MX_036_ch1_1
+halve,each_3_MX_036_ch1_1,ch1
+region,each_3_MX_036_ch1_int,w=18783 s=-7189 e=21080 n=-4651 ewres=2.96387096774194 nsres=2.96149358226371
+MASK_from_region,each_3_MX_036_ch1_int,each_3_MX_036_ch1_int
+interpolate,each_3_MX_036_ch1_int,each_3_MX_036_ch1_1
+region,each_3_MX_036,w=18783 s=-7189 e=21080 n=-4651,ewres=2.96387096774194 nsres=2.96149358226371
+MASK_from_region,each_3_MX_036,each_3_MX_036
+query,each_3_MX_036,each_3_MX_036_ch1_int
+region,each_3_US_035_ch1_1,w=16553 s=-4934 e=22323 n=-3175
+MASK_from_region,each_3_US_035_ch1_1,each_3_US_035_ch1_1
+halve,each_3_US_035_ch1_1,ch1
+region,each_3_US_035_ch1_int,w=16553 s=-4934 e=22323 n=-3175 ewres=2.25126804525946 nsres=2.24936061381074
+MASK_from_region,each_3_US_035_ch1_int,each_3_US_035_ch1_int
+interpolate,each_3_US_035_ch1_int,each_3_US_035_ch1_1
+region,each_3_US_035,w=16553 s=-4934 e=22323 n=-3175,ewres=2.25126804525946 nsres=2.24936061381074
+MASK_from_region,each_3_US_035,each_3_US_035
+query,each_3_US_035,each_3_US_035_ch1_int
+region,each_3_GL_022_ch1_1,w=5715 s=-12963 e=24679 n=-2717
+MASK_from_region,each_3_GL_022_ch1_1,each_3_GL_022_ch1_1
+halve,each_3_GL_022_ch1_1,ch1
+region,each_3_GL_022_ch1_int,w=5715 s=-12963 e=24679 n=-2717 ewres=3.71989015300118 nsres=3.72040668119099
+MASK_from_region,each_3_GL_022_ch1_int,each_3_GL_022_ch1_int
+interpolate,each_3_GL_022_ch1_int,each_3_GL_022_ch1_1
+region,each_3_GL_022,w=5715 s=-12963 e=24679 n=-2717,ewres=3.71989015300118 nsres=3.72040668119099
+MASK_from_region,each_3_GL_022,each_3_GL_022
+query,each_3_GL_022,each_3_GL_022_ch1_int
+region,each_3_GL_001_ch1_1,w=5584 s=-13298 e=24909 n=-2922
+MASK_from_region,each_3_GL_001_ch1_1,each_3_GL_001_ch1_1
+halve,each_3_GL_001_ch1_1,ch1
+region,each_3_GL_001_ch1_2,w=5584 s=-13298 e=24909 n=-2922
+MASK_from_region,each_3_GL_001_ch1_2,each_3_GL_001_ch1_2
+halve,each_3_GL_001_ch1_2,each_3_GL_001_ch1_1
+region,each_3_GL_001_ch1_int,w=5584 s=-13298 e=24909 n=-2922 ewres=5.93155310006139 nsres=5.9325328759291
+MASK_from_region,each_3_GL_001_ch1_int,each_3_GL_001_ch1_int
+interpolate,each_3_GL_001_ch1_int,each_3_GL_001_ch1_2
+region,each_3_GL_001,w=5584 s=-13298 e=24909 n=-2922,ewres=5.93155310006139 nsres=5.9325328759291
+MASK_from_region,each_3_GL_001,each_3_GL_001
+query,each_3_GL_001,each_3_GL_001_ch1_int
+region,each_3_SA_042_ch1_int,w=21093 s=-13050 e=24737 n=-7365 ewres=1.79066339066339 nsres=1.79055118110236
+MASK_from_region,each_3_SA_042_ch1_int,each_3_SA_042_ch1_int
+interpolate,each_3_SA_042_ch1_int,ch1
+region,each_3_SA_042,w=21093 s=-13050 e=24737 n=-7365,ewres=1.79066339066339 nsres=1.79055118110236
+MASK_from_region,each_3_SA_042,each_3_SA_042
+query,each_3_SA_042,each_3_SA_042_ch1_int
+
+

@@ -1,0 +1,47 @@
+# Plan execute
+
+
+
+region,share_1_ch1_1,w=8241 s=-11989 e=24769 n=-3467
+MASK_from_region,share_1_ch1_1,share_1_ch1_1
+halve,share_1_ch1_1,ch1
+region,share_1_US_001_ch1_int,w=16958 s=-4901 e=22569 n=-3467 ewres=2.88928939237899 nsres=2.89112903225806
+MASK_from_region,share_1_US_001_ch1_int,share_1_US_001_ch1_int
+interpolate,share_1_US_001_ch1_int,share_1_ch1_1
+region,share_1_US_001,w=16958 s=-4901 e=22569 n=-3467,ewres=2.88928939237899 nsres=2.89112903225806
+MASK_from_region,share_1_US_001,share_1_US_001
+query,share_1_US_001,share_1_US_001_ch1_int
+region,share_1_SA_003_ch1_int,w=21108 s=-11989 e=24769 n=-6399 ewres=3.91550802139037 nsres=3.91182645206438
+MASK_from_region,share_1_SA_003_ch1_int,share_1_SA_003_ch1_int
+interpolate,share_1_SA_003_ch1_int,share_1_ch1_1
+region,share_1_SA_003,w=21108 s=-11989 e=24769 n=-6399,ewres=3.91550802139037 nsres=3.91182645206438
+MASK_from_region,share_1_SA_003,share_1_SA_003
+query,share_1_SA_003,share_1_SA_003_ch1_int
+region,share_1_ch1_2,w=8241 s=-10612 e=14889 n=-3971
+MASK_from_region,share_1_ch1_2,share_1_ch1_2
+halve,share_1_ch1_2,share_1_ch1_1
+region,share_1_ch1_3,w=8241 s=-10612 e=14889 n=-3971
+MASK_from_region,share_1_ch1_3,share_1_ch1_3
+halve,share_1_ch1_3,share_1_ch1_2
+region,share_1_RN_000_ch1_int,w=8241 s=-9038 e=14889 n=-3971 ewres=11.7663716814159 nsres=11.7563805104408
+MASK_from_region,share_1_RN_000_ch1_int,share_1_RN_000_ch1_int
+interpolate,share_1_RN_000_ch1_int,share_1_ch1_3
+region,share_1_RN_000,w=8241 s=-9038 e=14889 n=-3971,ewres=11.7663716814159 nsres=11.7563805104408
+MASK_from_region,share_1_RN_000,share_1_RN_000
+query,share_1_RN_000,share_1_RN_000_ch1_int
+region,share_1_ch1_4,w=9092 s=-10612 e=14804 n=-5409
+MASK_from_region,share_1_ch1_4,share_1_ch1_4
+halve,share_1_ch1_4,share_1_ch1_3
+region,share_1_RN_004_ch1_int,w=9092 s=-10612 e=14804 n=-5409 ewres=18.4854368932039 nsres=18.5160142348754
+MASK_from_region,share_1_RN_004_ch1_int,share_1_RN_004_ch1_int
+interpolate,share_1_RN_004_ch1_int,share_1_ch1_4
+region,share_1_RN_004,w=9092 s=-10612 e=14804 n=-5409,ewres=18.4854368932039 nsres=18.5160142348754
+MASK_from_region,share_1_RN_004,share_1_RN_004
+query,share_1_RN_004,share_1_RN_004_ch1_int
+region,share_1_GL_002_ch1_int,w=6569 s=-12870 e=24375 n=-2858 ewres=1.23003592152528 nsres=1.23012655117336
+MASK_from_region,share_1_GL_002_ch1_int,share_1_GL_002_ch1_int
+interpolate,share_1_GL_002_ch1_int,ch1
+region,share_1_GL_002,w=6569 s=-12870 e=24375 n=-2858,ewres=1.23003592152528 nsres=1.23012655117336
+MASK_from_region,share_1_GL_002,share_1_GL_002
+query,share_1_GL_002,share_1_GL_002_ch1_int
+

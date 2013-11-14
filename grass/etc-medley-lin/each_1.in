@@ -1,0 +1,39 @@
+# Plan execute
+
+region,each_1_SA_003_ch3_int,w=21396 s=-12504 e=24624 n=-7727 ewres=3.43404255319149 nsres=3.42928930366116
+MASK_from_region,each_1_SA_003_ch3_int,each_1_SA_003_ch3_int
+interpolate,each_1_SA_003_ch3_int,ch3
+region,each_1_SA_003,w=21396 s=-12504 e=24624 n=-7727,ewres=3.43404255319149 nsres=3.42928930366116
+MASK_from_region,each_1_SA_003,each_1_SA_003
+query,each_1_SA_003,each_1_SA_003_ch3_int
+
+region,each_1_GL_000_r3_2,rast=ch5 w=6215 s=-13168 e=24543 n=-2851
+MASK_from_region,each_1_GL_000_r3_2,each_1_GL_000_r3_2
+mapcalc,each_1_GL_000_r3_2,ch5 ch2,100.0*float(B2-B1)/(B2+B1)
+region,each_1_GL_000_r3_int,w=6215 s=-13168 e=24543 n=-2851 ewres=7.47166734610681 nsres=7.47608695652174
+MASK_from_region,each_1_GL_000_r3_int,each_1_GL_000_r3_int
+interpolate,each_1_GL_000_r3_int,each_1_GL_000_r3_2
+region,each_1_GL_000,w=6215 s=-13168 e=24543 n=-2851,ewres=7.47166734610681 nsres=7.47608695652174
+MASK_from_region,each_1_GL_000,each_1_GL_000
+query,each_1_GL_000,each_1_GL_000_r3_int
+
+
+region,each_1_GL_002_ch4_int,w=5846 s=-12996 e=24288 n=-2642 ewres=2.24028182701652 nsres=2.24064055399264
+MASK_from_region,each_1_GL_002_ch4_int,each_1_GL_002_ch4_int
+interpolate,each_1_GL_002_ch4_int,ch4
+region,each_1_GL_002,w=5846 s=-12996 e=24288 n=-2642,ewres=2.24028182701652 nsres=2.24064055399264
+MASK_from_region,each_1_GL_002,each_1_GL_002
+query,each_1_GL_002,each_1_GL_002_ch4_int
+region,each_1_US_004_ch4_int,w=16627 s=-4923 e=22051 n=-3459 ewres=2.84127815610267 nsres=2.84824902723735
+MASK_from_region,each_1_US_004_ch4_int,each_1_US_004_ch4_int
+interpolate,each_1_US_004_ch4_int,ch4
+region,each_1_US_004,w=16627 s=-4923 e=22051 n=-3459,ewres=2.84127815610267 nsres=2.84824902723735
+MASK_from_region,each_1_US_004,each_1_US_004
+query,each_1_US_004,each_1_US_004_ch4_int
+
+region,each_1_GL_001_ch5_int,w=5584 s=-13298 e=24909 n=-2922 ewres=5.93155310006139 nsres=5.9325328759291
+MASK_from_region,each_1_GL_001_ch5_int,each_1_GL_001_ch5_int
+interpolate,each_1_GL_001_ch5_int,ch5
+region,each_1_GL_001,w=5584 s=-13298 e=24909 n=-2922,ewres=5.93155310006139 nsres=5.9325328759291
+MASK_from_region,each_1_GL_001,each_1_GL_001
+query,each_1_GL_001,each_1_GL_001_ch5_int

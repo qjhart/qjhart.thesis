@@ -94,7 +94,7 @@ graphs:=grass/etc-ch1-lin/time grass/etc-ch1-log/time grass/etc-ndvi-lin/time \
 	grass/etc-medley-lin/time grass/etc-medley-log/time grass/etc-p1-lin/time \
 	grass/Q-lin grass/Q-log \
 	graphs/halve graphs/halve_bysize \
-	calibration
+	calibration dis
 
 # LATEx SIZE IS 5"X3" => 0.86 0.98 for 11cmX7.5cm
 # LATEx SIZE IS 5"X3" => 0.4 0.4 for 5cmX3cm

@@ -1,0 +1,41 @@
+# Plan execute
+
+
+
+region,share_1_ch1_1,w=5584 s=-13298 e=24909 n=-2642
+MASK_from_region,share_1_ch1_1,share_1_ch1_1
+halve,share_1_ch1_1,ch1
+region,share_1_SA_003_ch1_int,w=21396 s=-12504 e=24624 n=-7727 ewres=3.43404255319149 nsres=3.42928930366116
+MASK_from_region,share_1_SA_003_ch1_int,share_1_SA_003_ch1_int
+interpolate,share_1_SA_003_ch1_int,share_1_ch1_1
+region,share_1_SA_003,w=21396 s=-12504 e=24624 n=-7727,ewres=3.43404255319149 nsres=3.42928930366116
+MASK_from_region,share_1_SA_003,share_1_SA_003
+query,share_1_SA_003,share_1_SA_003_ch1_int
+region,share_1_GL_002_ch1_int,w=5846 s=-12996 e=24288 n=-2642 ewres=2.24028182701652 nsres=2.24064055399264
+MASK_from_region,share_1_GL_002_ch1_int,share_1_GL_002_ch1_int
+interpolate,share_1_GL_002_ch1_int,share_1_ch1_1
+region,share_1_GL_002,w=5846 s=-12996 e=24288 n=-2642,ewres=2.24028182701652 nsres=2.24064055399264
+MASK_from_region,share_1_GL_002,share_1_GL_002
+query,share_1_GL_002,share_1_GL_002_ch1_int
+region,share_1_US_004_ch1_int,w=16627 s=-4923 e=22051 n=-3459 ewres=2.84127815610267 nsres=2.84824902723735
+MASK_from_region,share_1_US_004_ch1_int,share_1_US_004_ch1_int
+interpolate,share_1_US_004_ch1_int,share_1_ch1_1
+region,share_1_US_004,w=16627 s=-4923 e=22051 n=-3459,ewres=2.84127815610267 nsres=2.84824902723735
+MASK_from_region,share_1_US_004,share_1_US_004
+query,share_1_US_004,share_1_US_004_ch1_int
+region,share_1_ch1_2,w=5584 s=-13298 e=24909 n=-2851
+MASK_from_region,share_1_ch1_2,share_1_ch1_2
+halve,share_1_ch1_2,share_1_ch1_1
+region,share_1_GL_000_ch1_int,w=6215 s=-13168 e=24543 n=-2851 ewres=7.47166734610681 nsres=7.47608695652174
+MASK_from_region,share_1_GL_000_ch1_int,share_1_GL_000_ch1_int
+interpolate,share_1_GL_000_ch1_int,share_1_ch1_2
+region,share_1_GL_000,w=6215 s=-13168 e=24543 n=-2851,ewres=7.47166734610681 nsres=7.47608695652174
+MASK_from_region,share_1_GL_000,share_1_GL_000
+query,share_1_GL_000,share_1_GL_000_ch1_int
+region,share_1_GL_001_ch1_int,w=5584 s=-13298 e=24909 n=-2922 ewres=5.93155310006139 nsres=5.9325328759291
+MASK_from_region,share_1_GL_001_ch1_int,share_1_GL_001_ch1_int
+interpolate,share_1_GL_001_ch1_int,share_1_ch1_2
+region,share_1_GL_001,w=5584 s=-13298 e=24909 n=-2922,ewres=5.93155310006139 nsres=5.9325328759291
+MASK_from_region,share_1_GL_001,share_1_GL_001
+query,share_1_GL_001,share_1_GL_001_ch1_int
+
